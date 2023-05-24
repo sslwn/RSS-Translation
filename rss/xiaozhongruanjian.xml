@@ -1,0 +1,1451 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:wfw="http://wellformedweb.org/CommentAPI/">
+<channel>
+<title>小众软件</title>
+<atom:link href="https://www.appinn.com/feed/" rel="self" type="application/rss+xml"></atom:link>
+<link/>https://www.appinn.com
+	<description>分享免费、小巧、实用、有趣、绿色的软件</description>
+<lastbuilddate>Tue, 23 May 2023 08:53:12 +0000</lastbuilddate>
+<language>zh-CN</language>
+<sy:updateperiod>
+	hourly	</sy:updateperiod>
+<sy:updatefrequency>
+	1	</sy:updatefrequency>
+<generator>https://wordpress.org/?v=6.2.2</generator>
+<item>
+<title>RSS-Translate – 自动翻译外语 RSS 至中文</title>
+<link/>https://www.appinn.com/rss-translate/
+					<comments>https://www.appinn.com/rss-translate/#respond</comments>
+<dc:creator><![CDATA[青小蛙]]></dc:creator>
+<pubDate>Tue, 23 May 2023 08:52:56 +0000</pubDate>
+<category><![CDATA[在线应用]]></category>
+<category><![CDATA[Github]]></category>
+<category><![CDATA[rss]]></category>
+<category><![CDATA[twp]]></category>
+<category><![CDATA[翻译]]></category>
+<guid ispermalink="false">https://www.appinn.com/?p=45482</guid>
+<description><![CDATA[RSS-Translate 是一个开源项目，它通过 GitHub Action 配合 Google Translate 实现了自动翻译 RSS，然后再通过 RSS阅读器订阅，一次配置永久使用。@App ]]></description>
+<content:encoded><![CDATA[
+<p><strong>RSS-Translate</strong> 是一个开源项目，它通过 GitHub Action 配合 Google Translate 实现了自动翻译 RSS，然后再通过 RSS阅读器订阅，一次配置永久使用。@<a href="https://www.appinn.com/rss-translate/">Appinn</a></p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-large"><img decoding="async" src="https://static1.appinn.com/images/202305/rss-translate.jpg!o" alt="RSS-Translate - 自动翻译外语 RSS 至中文" title="RSS-Translate - 自动翻译外语 RSS 至中文 1"></figure></div>
+
+
+<p>虽说 RSS 已经不再流行，但在特有的圈子里，RSS 依旧是高效的代名词。而将信息源以中文的形式展现出来，可以让阅读效率更高。另外，中文信息源的减少也可能是 RSS 不再流行的原因之一。</p>
+
+
+
+<p>感谢 <a href="https://t.me/aboutrss/1324" target="_blank">ALL About RSS</a> 的推荐。</p>
+
+
+<h2 class="wp-block-heading" id="rsstranslate">RSS-Translate</h2>
+
+
+<p>RSS-Translate 项目最早来自 <a href="https://github.com/talengu/rss-translate" target="_blank" rel="noopener">talengu/rss-translate</a>，@tjsky 同学提供了<a href="https://www.tjsky.net/tutorial/644" target="_blank" rel="noopener">完整的中文教程</a>，让整个流程用起来更加方便。</p>
+
+
+
+<ul>
+<li><a href="https://github.com/tjsky/RSS-Translation" target="_blank" rel="noopener">https://github.com/tjsky/RSS-Translation</a></li>
+</ul>
+
+
+
+<p>配置完成之后的大致工作流程是这样的：</p>
+
+
+
+<p>将源 RSS 提交给 Github，通过GitHub action 自动处理一切，返回一个新的 RSS 地址，把这个地址交给 <a href="https://www.appinn.com/tag/rss/">RSS 阅读器</a>即可。</p>
+
+
+<h3 class="wp-block-heading" id="%25e9%2585%258d%25e7%25bd%25ae">配置</h3>
+
+
+<p>虽然是一次配置永久使用，但使用 RSS-Translate 的门槛至少是有一个 GitHub 账号。</p>
+
+
+
+<p>然后就简单了，跟着上面提到的教程一步一步即可。</p>
+
+
+
+<p>另外还有：遇到问题不要怕，只要能把你的问题详细的描述出来（这是一项真技能：会提问），你就赢了，因为我们还有<a href="https://meta.appinn.net/c/wen-ti-qiu-zhu/7" target="_blank" rel="noopener"><strong>问题求助频道</strong></a>啊，会提问的同学始终可以比别人更快的获得答案。</p>
+
+
+<h3 class="wp-block-heading" id="%25e4%25bd%25bf%25e7%2594%25a8">使用</h3>
+
+
+<p>依旧，获得的新 RSS 地址由 GitHub 提供，如果你能自己注册 GitHub，那么就没问题了。</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-large is-resized"><img decoding="async" loading="lazy" src="https://static1.appinn.com/images/202305/appinn-2023-05-23-16-46-112x.jpg!o" alt="RSS-Translate - 自动翻译外语 RSS 至中文 1" width="401" height="196" title="RSS-Translate - 自动翻译外语 RSS 至中文 2"></figure></div>
+
+
+<p>当然还是要吐槽一下，海量信息源 + 追求高效率的结果，自然是标题党的胜利。</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-large is-resized"><img decoding="async" loading="lazy" src="https://static1.appinn.com/images/202305/appinn-2023-05-23-16-48-402x.jpg!o" alt="RSS-Translate - 自动翻译外语 RSS 至中文 2" width="400" height="416" title="RSS-Translate - 自动翻译外语 RSS 至中文 3"></figure></div>
+
+
+<p>对于机器翻译，就不要追求更多了，一些 RSS 会无法翻译标题，很奇怪，青小蛙没去找原因，因为它还是翻译了摘要，够用了。</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p>原文：https://www.appinn.com/rss-translate/</p>
+<hr /><h2>相关阅读</h2><ul><li><a href="https://www.appinn.com/feedme-for-android/" rel="bookmark" title="Permanent Link: Feedme &#8211; 8大 RSS 阅读器第三方客户端[Android]">Feedme &#8211; 8大 RSS 阅读器第三方客户端[Android]</a></li><li><a href="https://www.appinn.com/rss-plus-and-rsshelper/" rel="bookmark" title="Permanent Link: RSS+ &#038; RSSHelper &#8211; 显示当前网站的 RSS  地址[2个油猴脚本]">RSS+ &#038; RSSHelper &#8211; 显示当前网站的 RSS  地址[2个油猴脚本]</a></li><li><a href="https://www.appinn.com/an-otter-rss-reader/" rel="bookmark" title="Permanent Link: An Otter RSS Reader &#8211; 支持 iCloud 同步阅读进度的简约 RSS 阅读器[macOS/iOS]">An Otter RSS Reader &#8211; 支持 iCloud 同步阅读进度的简约 RSS 阅读器[macOS/iOS]</a></li><li><a href="https://www.appinn.com/polly-rss-reading-for-android/" rel="bookmark" title="Permanent Link: Polly 阅读 &#8211; 干净简单的聚合阅读应用[Android]">Polly 阅读 &#8211; 干净简单的聚合阅读应用[Android]</a></li><li><a href="https://www.appinn.com/easy-to-rss/" rel="bookmark" title="Permanent Link: Easy to RSS &#8211; 能发现 RSSHub（RSS 生成工具）订阅地址的 RSS 工具 [Chrome]">Easy to RSS &#8211; 能发现 RSSHub（RSS 生成工具）订阅地址的 RSS 工具 [Chrome]</a></li></ul><hr />
+<a href="http://www.appinn.com/copyright/?utm_source=feeds&amp;utm_medium=copyright&amp;utm_campaign=feeds" title="版权声明">&#169;</a>2021 青小蛙 for <a href="http://www.appinn.com/?utm_source=feeds&amp;utm_medium=appinn&amp;utm_campaign=feeds" title="本文来自小众软件">小众软件</a> | <a href="http://www.appinn.com/join-us/?utm_source=feeds&amp;utm_medium=joinus&amp;utm_campaign=feeds" title="加入小众软件">加入我们</a> | <a href="https://meta.appinn.net/c/faxian/?utm_source=feeds&amp;utm_medium=contribute&amp;utm_campaign=feeds" title="给小众软件投稿" target="_blank" rel="noopener">投稿</a> | <a href="http://www.appinn.com/feeds-subscribe/?utm_source=feeds&amp;utm_medium=feedsubscribe&amp;utm_campaign=feeds" title="可以分类订阅小众，Windows/MAC/游戏" target="_blank"><font color="red">订阅指南</font></a><br /> 3659b075e72a5b7b1b87ea74aa7932ff <br />
+<a href="https://www.appinn.com/rss-translate/#comments" title="to the comments">点击这里留言、和原作者一起评论</a><div class="wpulike wpulike-updown-voting  wpulike-is-pro" ><div class="wp_ulike_general_class wpulike_up_vote wp_ulike_is_not_liked"><button type="button"
+            aria-label="喜欢按钮"
+            data-ulike-id="45482" data-ulike-factor="up"
+            data-ulike-nonce="694c7c9d32" data-ulike-type="post"
+            data-ulike-template="wp-ulike-pro-default" data-ulike-display-likers="0"
+            data-ulike-likers-style="popover" class="wp_ulike_btn wp_ulike_btn_up  wp_post_up_btn_45482 wp_ulike_put_image"></button><span class="count-box wp_ulike_counter_up" data-ulike-counter-value="0"></span>    </div><div class="wp_ulike_general_class wpulike_down_vote wp_ulike_is_not_liked"><button type="button"
+            aria-label="Dislike Button"
+            data-ulike-id="45482" data-ulike-factor="down"
+            data-ulike-nonce="694c7c9d32" data-ulike-type="post"
+            data-ulike-template="wp-ulike-pro-default" data-ulike-display-likers="0"
+            data-ulike-likers-style="popover" class="wp_ulike_btn wp_ulike_btn_down  wp_post_down_btn_45482 wp_ulike_put_image"></button><span class="count-box wp_ulike_counter_down" data-ulike-counter-value="0"></span>    </div></div>
+<p><a href="https://www.appinn.com/rss-translate/">[ 点击前往获取链接 ]</a></p><hr/>]]></content:encoded>
+<wfw:commentrss>https://www.appinn.com/rss-translate/feed/</wfw:commentrss>
+<slash:comments>0</slash:comments>
+</item>
+<item>
+<title>简易的 Whisper 客户端，使用 OpenAI API 进行语音转文字</title>
+<link/>https://www.appinn.com/transcribe-audio-open-ai-whisper-api-web-ui/
+					<comments>https://www.appinn.com/transcribe-audio-open-ai-whisper-api-web-ui/#comments</comments>
+<dc:creator><![CDATA[青小蛙]]></dc:creator>
+<pubDate>Mon, 22 May 2023 07:57:08 +0000</pubDate>
+<category><![CDATA[AI]]></category>
+<category><![CDATA[在线应用]]></category>
+<category><![CDATA[OpenAI]]></category>
+<category><![CDATA[twp]]></category>
+<category><![CDATA[Whisper]]></category>
+<category><![CDATA[语音转文字]]></category>
+<guid ispermalink="false">https://www.appinn.com/?p=45478</guid>
+<description><![CDATA[Whisper&#160;是一个由 OpenAI 训练并开源的神经网络，在英语语音识别方面的稳健性和准确性接近人类水平。当然也支持包括中文在内的多种语言。除了使用本地电脑的 CPU 与 GPU 进行语 ]]></description>
+<content:encoded><![CDATA[
+<p><strong>Whisper</strong>&nbsp;是一个由 OpenAI 训练并开源的<a href="https://openai.com/research/whisper" target="_blank" rel="noreferrer noopener">神经网络</a>，在英语语音识别方面的稳健性和准确性接近人类水平。当然也支持包括中文在内的多种语言。除了使用本地电脑的 CPU 与 GPU 进行语音转文字以外，实际上还可以直接使用用由 OpenAI 提供的服务进行<strong>语音转文字</strong>。青小蛙找到的这个开源项目，就简单的提供了这项服务。@<a href="https://www.appinn.com/transcribe-audio-open-ai-whisper-api-web-ui/">Appinn</a> </p>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" src="https://static1.appinn.com/images/202305/whisper-transcribe.jpg!o" alt="简易的 Whisper 客户端，使用 OpenAI API 进行语音转文字" title="简易的 Whisper 客户端，使用 OpenAI API 进行语音转文字 4"></figure>
+
+
+
+<p>#<a href="https://www.appinn.com/tag/%E8%AF%AD%E9%9F%B3%E8%BD%AC%E6%96%87%E5%AD%97/">语音转文字</a> 的产品不少了，但本地（使用自己的电脑）的居多：</p>
+
+
+<h3 class="wp-block-heading" id="%25e5%2588%25a9%25e7%2594%25a8-iphone-%25e6%259c%25ac%25e5%259c%25b0%25e7%25ae%2597%25e5%258a%259b">利用 iPhone 本地算力：</h3>
+
+
+<ul>
+<li><a href="https://www.appinn.com/yuyinwenzizhushou-for-iphone/">语音文字助手 – 基于 iPhone 原生语音识别，免费不限量的语音转文字、文字转语音应用</a></li>
+</ul>
+
+
+<h3 class="wp-block-heading" id="windows%25e6%2594%25af%25e6%258c%2581-gpu">Windows，支持 GPU：</h3>
+
+
+<ul>
+<li><a href="https://www.appinn.com/const-me-whisper/">Whisper – 本地语音转文字工具，支持 GPU、支持实时语音转换[Windows]</a></li>
+</ul>
+
+
+<h3 class="wp-block-heading" id="%25e5%2588%25a9%25e7%2594%25a8-windows-%25e5%258e%259f%25e7%2594%259f%25e5%258a%259f%25e8%2583%25bd">利用 Windows 原生功能：</h3>
+
+
+<ul>
+<li><a href="https://www.appinn.com/speech-to-text-windows10-and-11/">利用 Windows 10/11 原生语音输入功能，实现无限量、免费「语音转文字」</a></li>
+</ul>
+
+
+<h3 class="wp-block-heading" id="%25e8%25b7%25a8%25e5%25b9%25b3%25e5%258f%25b0%25e5%259f%25ba%25e4%25ba%258e-whisper">跨平台，基于 Whisper：</h3>
+
+
+<ul>
+<li><a href="https://www.appinn.com/buzz-openai-whisper/">Buzz – 开源、可离线的实时语音转文字工具</a></li>
+</ul>
+
+
+
+<p>等等，但本地的一个劣势是需要电脑性能好一些，并且还需要下载巨大的模型文件。如果偶尔用一次，真不如不折腾 <img src="https://s.w.org/images/core/emoji/14.0.0/72x72/1f602.png" alt="😂" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+
+
+<h2 class="wp-block-heading" id="felixbadetranscribe-%25e9%25a1%25b9%25e7%259b%25ae">felixbade/transcribe 项目</h2>
+
+
+<p>这个项目名叫 transcribe，实际上它只有三个文件：index.html、index.js、style.css，只需要下载、解压缩，将 <strong>index.html</strong> 拖到浏览器里就能用：</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-large"><img decoding="async" src="https://static1.appinn.com/images/202305/appinn-2023-05-22-15-28-402x.jpg!o" alt="简易的 Whisper 客户端，使用 OpenAI API 进行语音转文字 3" title="简易的 Whisper 客户端，使用 OpenAI API 进行语音转文字 5"></figure></div>
+
+
+<p>然后，在顶部输入你的 OpenAI API key（和 ChatGPT 同一个），就可以选择音频文件进行转换了，支持文本、.srt、.vtt 三种格式。</p>
+
+
+
+<p>它会直接将文本输出在页面上，而不是提供文件下载：</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-large"><img decoding="async" src="https://static1.appinn.com/images/202305/appinn-2023-05-22-15-32-072x.jpg!o" alt="简易的 Whisper 客户端，使用 OpenAI API 进行语音转文字 4" title="简易的 Whisper 客户端，使用 OpenAI API 进行语音转文字 6"></figure></div>
+
+
+<p>所以，转换成功之后，只需要将内容复制，放到文本编辑器中，保存为 .srt 就行了。</p>
+
+
+
+<p>简单易用，三个文件加起来也只有 13KB&#8230;</p>
+
+
+
+<p>另外，开发者也提供了一个 DEMO 页面，可以直接使用。</p>
+
+
+<h2 class="wp-block-heading" id="%25e8%258e%25b7%25e5%258f%2596">获取</h2>
+
+
+<ul>
+<li><a href="https://github.com/felixbade/transcribe" target="_blank" rel="noopener">GitHub</a></li>
+
+
+
+<li><a href="https://transcribe.bloat.app/" target="_blank" rel="noopener">DEMO</a>（可直接使用）</li>
+
+
+
+<li><a href="https://d.appinn.com/transcribe-audio-open-ai-whisper-api-web-ui/" target="_blank" rel="noopener">搬运</a></li>
+</ul>
+
+
+<h3 class="wp-block-heading" id="api-%25e4%25bb%25b7%25e6%25a0%25bc">API 价格</h3>
+
+
+<p>另外需要注意，<strong>Whisper</strong> API 的价格为 $0.006 / 分钟。</p>
+
+
+
+<p>作为对比，讯飞听见价格为 ¥128/5小时（快算下按分钟多少钱 <img src="https://s.w.org/images/core/emoji/14.0.0/72x72/1f602.png" alt="😂" class="wp-smiley" style="height: 1em; max-height: 1em;" />），不过根据朋友反馈，讯飞的中文效果要好于 <strong>Whisper</strong>。</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p>原文：https://www.appinn.com/transcribe-audio-open-ai-whisper-api-web-ui/</p>
+<hr /><h2>相关阅读</h2><ul><li><a href="https://www.appinn.com/open-source-mac-os-apps/" rel="bookmark" title="Permanent Link: 34 个大类，超过 400 个「macOS 绝赞开源应用」列表">34 个大类，超过 400 个「macOS 绝赞开源应用」列表</a></li><li><a href="https://www.appinn.com/const-me-whisper/" rel="bookmark" title="Permanent Link: Whisper &#8211; 本地语音转文字工具，支持 GPU、支持实时语音转换[Windows]">Whisper &#8211; 本地语音转文字工具，支持 GPU、支持实时语音转换[Windows]</a></li><li><a href="https://www.appinn.com/buzz-openai-whisper/" rel="bookmark" title="Permanent Link: Buzz &#8211; 开源、可离线的实时语音转文字工具">Buzz &#8211; 开源、可离线的实时语音转文字工具</a></li><li><a href="https://www.appinn.com/dreammail-pro/" rel="bookmark" title="Permanent Link: 畅邮（Dreammail Pro）原「梦幻快车」邮件客户端，功能一览 [Windows]">畅邮（Dreammail Pro）原「梦幻快车」邮件客户端，功能一览 [Windows]</a></li><li><a href="https://www.appinn.com/2010-taobao/" rel="bookmark" title="Permanent Link: 在北京参加赢在淘宝活动">在北京参加赢在淘宝活动</a></li></ul><hr />
+<a href="http://www.appinn.com/copyright/?utm_source=feeds&amp;utm_medium=copyright&amp;utm_campaign=feeds" title="版权声明">&#169;</a>2021 青小蛙 for <a href="http://www.appinn.com/?utm_source=feeds&amp;utm_medium=appinn&amp;utm_campaign=feeds" title="本文来自小众软件">小众软件</a> | <a href="http://www.appinn.com/join-us/?utm_source=feeds&amp;utm_medium=joinus&amp;utm_campaign=feeds" title="加入小众软件">加入我们</a> | <a href="https://meta.appinn.net/c/faxian/?utm_source=feeds&amp;utm_medium=contribute&amp;utm_campaign=feeds" title="给小众软件投稿" target="_blank" rel="noopener">投稿</a> | <a href="http://www.appinn.com/feeds-subscribe/?utm_source=feeds&amp;utm_medium=feedsubscribe&amp;utm_campaign=feeds" title="可以分类订阅小众，Windows/MAC/游戏" target="_blank"><font color="red">订阅指南</font></a><br /> 3659b075e72a5b7b1b87ea74aa7932ff <br />
+<a href="https://www.appinn.com/transcribe-audio-open-ai-whisper-api-web-ui/#comments" title="to the comments">点击这里留言、和原作者一起评论</a><div class="wpulike wpulike-updown-voting  wpulike-is-pro" ><div class="wp_ulike_general_class wpulike_up_vote wp_ulike_is_not_liked"><button type="button"
+            aria-label="喜欢按钮"
+            data-ulike-id="45478" data-ulike-factor="up"
+            data-ulike-nonce="7657e701da" data-ulike-type="post"
+            data-ulike-template="wp-ulike-pro-default" data-ulike-display-likers="0"
+            data-ulike-likers-style="popover" class="wp_ulike_btn wp_ulike_btn_up  wp_post_up_btn_45478 wp_ulike_put_image"></button><span class="count-box wp_ulike_counter_up" data-ulike-counter-value="0"></span>    </div><div class="wp_ulike_general_class wpulike_down_vote wp_ulike_is_not_liked"><button type="button"
+            aria-label="Dislike Button"
+            data-ulike-id="45478" data-ulike-factor="down"
+            data-ulike-nonce="7657e701da" data-ulike-type="post"
+            data-ulike-template="wp-ulike-pro-default" data-ulike-display-likers="0"
+            data-ulike-likers-style="popover" class="wp_ulike_btn wp_ulike_btn_down  wp_post_down_btn_45478 wp_ulike_put_image"></button><span class="count-box wp_ulike_counter_down" data-ulike-counter-value="0"></span>    </div></div>
+<p><a href="https://www.appinn.com/transcribe-audio-open-ai-whisper-api-web-ui/">[ 点击前往获取链接 ]</a></p><hr/>]]></content:encoded>
+<wfw:commentrss>https://www.appinn.com/transcribe-audio-open-ai-whisper-api-web-ui/feed/</wfw:commentrss>
+<slash:comments>1</slash:comments>
+</item>
+<item>
+<title>Trakt 发布 Android 客户端，用来记录、追踪电视剧、电影</title>
+<link/>https://www.appinn.com/trakt-for-android/
+					<comments>https://www.appinn.com/trakt-for-android/#respond</comments>
+<dc:creator><![CDATA[青小蛙]]></dc:creator>
+<pubDate>Sun, 21 May 2023 09:32:48 +0000</pubDate>
+<category><![CDATA[Android]]></category>
+<category><![CDATA[twp]]></category>
+<category><![CDATA[电影]]></category>
+<category><![CDATA[电视剧]]></category>
+<category><![CDATA[记录]]></category>
+<category><![CDATA[追踪]]></category>
+<guid ispermalink="false">https://www.appinn.com/?p=45469</guid>
+<description><![CDATA[Trakt 是一个老牌网站，它主要用来记录、追踪你所看的电视剧、电影，支持非常多的节目，还可以用来评分以及发现热门节目。最近其刚刚发布了 Android 客户端。@Appinn Trakt 从 201 ]]></description>
+<content:encoded><![CDATA[
+<p><strong>Trakt</strong> 是一个老牌网站，它主要用来记录、追踪你所看的电视剧、电影，支持非常多的节目，还可以用来评分以及发现热门节目。最近其刚刚发布了 Android 客户端。@<a href="https://www.appinn.com/trakt-for-android/">Appinn</a></p>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" src="https://static1.appinn.com/images/202305/trakt-tv-andriod.jpg!o" alt="Trakt 发布 Android 客户端，用来记录、追踪电视剧、电影" title="Trakt 发布 Android 客户端，用来记录、追踪电视剧、电影 7"></figure>
+
+
+
+<p>Trakt 从 2010 年诞生，第三方支持非常丰富。很多工具都可以使用 Trakt 插件自动记录观影。所以用户量也不小，但其在 2021 年才发布 iPhone 客户端，大概开发者也是一群古老的互联网人类 <img src="https://s.w.org/images/core/emoji/14.0.0/72x72/1f602.png" alt="😂" class="wp-smiley" style="height: 1em; max-height: 1em;" />。</p>
+
+
+
+<p>对青小蛙来说，不记得看过的影片是十分常见的事情，对于电影还好，毕竟看过就看过了，也没什么。但电视剧不同，很多剧就是因为找不到上次看到的地方而起坑 <img src="https://s.w.org/images/core/emoji/14.0.0/72x72/1f602.png" alt="😂" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+
+
+
+<p>后来到了流媒体时代，记录剧集不是难事了，但是平台太多，就需要一个统一管理的地方，实际上豆瓣也有此功能，但<a href="https://meta.appinn.net/" target="_blank" rel="noopener">在论坛的提问</a>里看起来，依旧有很多同学在不断的寻找记录影视的工具，比如：</p>
+
+
+
+<ul>
+<li><a href="https://meta.appinn.net/t/topic/35506" target="_blank" rel="noopener">有没有安卓版的记录自己看过的电影/剧集的APP</a></li>
+
+
+
+<li><a href="https://meta.appinn.net/t/topic/28397" target="_blank" rel="noopener">本地书影音记录工具/app？ </a><a href="https://meta.appinn.net/t/topic/28397" target="_blank" rel="noopener"></a></li>
+
+
+
+<li><a href="https://meta.appinn.net/t/topic/32166" target="_blank" rel="noopener">Apollo——标记你看过的电影/剧集</a></li>
+</ul>
+
+
+<h2 class="wp-block-heading" id="trakt-for-android">Trakt for Android</h2>
+
+
+<p>Trakt for Android 的界面看起来和 iOS 版本一模一样，功能众多：</p>
+
+
+<h3 class="wp-block-heading" id="%25e8%25bf%25bd%25e8%25b8%25aa">追踪</h3>
+
+
+<ul>
+<li>查看您正在观看的节目和电影。</li>
+
+
+
+<li>我们索引了超过 100 万部节目和电影。</li>
+
+
+
+<li>标记您以前看过的剧集和电影。</li>
+
+
+
+<li>您观看过的所有内容的详细历史记录。</li>
+</ul>
+
+
+<h3 class="wp-block-heading" id="%25e5%258f%2591%25e7%258e%25b0">发现</h3>
+
+
+<ul>
+<li>查看实时趋势。</li>
+
+
+
+<li>浏览期待的节目和电影。</li>
+
+
+
+<li>查看社区中流行的内容。</li>
+
+
+
+<li>高级过滤器可准确找到您要查找的内容。 （仅限贵宾）</li>
+
+
+
+<li>保存的过滤器添加新卡片以便快速访问（仅限 VIP）</li>
+</ul>
+
+
+<h3 class="wp-block-heading" id="%25e6%259f%25a5%25e6%2589%25be%25e6%25b5%2581%25e5%25aa%2592%25e4%25bd%2593%25e5%259c%25a8%25e5%2593%25aa%25e9%2587%258c%25e6%2592%25ad%25e6%2594%25be">查找流媒体在哪里播放</h3>
+
+
+<ul>
+<li>与 JustWatch 合作，在 120 多个国家/地区提供流媒体链接。</li>
+
+
+
+<li>全球有超过 650 种流媒体服务被编入索引。</li>
+
+
+
+<li>选择您最喜欢的服务并将其推到顶部。</li>
+</ul>
+
+
+<h3 class="wp-block-heading" id="%25e6%25b8%2585%25e5%258d%2595">清单</h3>
+
+
+<ul>
+<li>跟踪列表以跟踪您想要观看的内容。</li>
+
+
+
+<li>个人列表，可根据需要组织事物。</li>
+
+
+
+<li>来自社区的推荐列表。</li>
+
+
+
+<li>无限列表和扩展项目限制。 （仅限贵宾）</li>
+</ul>
+
+
+<h3 class="wp-block-heading" id="%25e6%2594%25b6%25e8%2597%258f">收藏</h3>
+
+
+<ul>
+<li>收集您拥有的节目和电影，包括具有所有技术规格的元数据。</li>
+</ul>
+
+
+<h3 class="wp-block-heading" id="%25e6%2597%25a5%25e5%258e%2586">日历</h3>
+
+
+<ul>
+<li>剧集和电影的个性化和全球日历。</li>
+</ul>
+
+
+<h3 class="wp-block-heading" id="%25e7%25bb%259f%25e8%25ae%25a1%25e6%2595%25b0%25e6%258d%25ae">统计数据</h3>
+
+
+<ul>
+<li>关于您的观看习惯的个性化统计数据。</li>
+
+
+
+<li>每年回顾你看过的东西。 （仅限贵宾）</li>
+
+
+
+<li>总结您整个观看生涯的所有时间统计数据。 （仅限贵宾）</li>
+</ul>
+
+
+<h3 class="wp-block-heading" id="%25e6%2598%25be%25e7%25a4%25ba%25e8%25bf%259b%25e5%25ba%25a6">显示进度</h3>
+
+
+<ul>
+<li>快速查看接下来要看的内容。</li>
+
+
+
+<li>获取有关您已观看剧集和剩余内容的超详细进度。</li>
+
+
+
+<li>查看节目、季节和剧集以及您观看它们的次数。</li>
+
+
+
+<li>重新观看节目并重新计算进度。 （仅限贵宾）</li>
+</ul>
+
+
+<h3 class="wp-block-heading" id="%25e6%2590%259c%25e7%25b4%25a2">搜索</h3>
+
+
+<ul>
+<li>搜索节目、电影、剧集、人物和列表。</li>
+
+
+
+<li>高级过滤器可准确找到您要查找的内容。 （仅限贵宾）</li>
+</ul>
+
+
+<h3 class="wp-block-heading" id="%25e9%2580%259a%25e7%259f%25a5">通知</h3>
+
+
+<ul>
+<li>新剧集播出时推送通知。</li>
+</ul>
+
+
+<h3 class="wp-block-heading" id="%25e7%25a4%25be%25e4%25ba%25a4">社交</h3>
+
+
+<ul>
+<li>看看你的朋友最近在看什么。</li>
+
+
+
+<li>对您观看的内容进行评论和评分。</li>
+
+
+
+<li>关注其他有相似兴趣的成员。</li>
+
+
+
+<li>自动分享您在 Twitter 和 Mastadon 上观看的内容。</li>
+</ul>
+
+
+<h3 class="wp-block-heading" id="%25e5%25bb%25ba%25e8%25ae%25ae">建议</h3>
+
+
+<ul>
+<li>个性化的节目和电影推荐。</li>
+
+
+
+<li>向他人推荐您的最爱。</li>
+</ul>
+
+
+<h3 class="wp-block-heading" id="%25e8%25b4%25b5%25e5%25ae%25bevip">贵宾VIP</h3>
+
+
+<ul>
+<li>支持 Trakt 并解锁一些很棒的 VIP 功能！</li>
+
+
+
+<li>VIP 适用于所有官方 Trakt 应用程序和 Trakt 网站。</li>
+
+
+
+<li>Trakt 上没有任何广告。</li>
+
+
+
+<li>年度回顾统计。</li>
+
+
+
+<li>Beta 版本可在其他任何人之前测试新功能。</li>
+
+
+
+<li>高级过滤和保存的过滤器。</li>
+
+
+
+<li>无限个人名单。</li>
+
+
+
+<li>关于列表项的注释。</li>
+
+
+
+<li>重新观看节目并重新计算进度。</li>
+
+
+
+<li>贵宾徽章。</li>
+</ul>
+
+
+<h2 class="wp-block-heading" id="%25e8%258e%25b7%25e5%258f%2596">获取</h2>
+
+
+<p>Trakt 没有中文界面，但可以直接通过中文搜索名称。</p>
+
+
+
+<ul>
+<li><a href="https://apps.apple.com/app/id1514873602?at=10l4Ht" target="_blank" rel="noopener">App Store</a></li>
+
+
+
+<li><a href="https://play.google.com/store/apps/details?id=tv.trakt.trakt" target="_blank" rel="noopener">Google Play</a><a href="https://meta.appinn.net/c/wen-ti-qiu-zhu/7" target="_blank" rel="noopener"></a></li>
+</ul>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p>原文：https://www.appinn.com/trakt-for-android/</p>
+
+
+
+<p></p>
+<hr /><h2>相关阅读</h2><ul><li><a href="https://www.appinn.com/seriesguide-for-android/" rel="bookmark" title="Permanent Link: SeriesGuide &#8211; 收藏、记录追剧进度、观看过的电影[Android]">SeriesGuide &#8211; 收藏、记录追剧进度、观看过的电影[Android]</a></li><li><a href="https://www.appinn.com/android-security-6-tips-and-tricks-to-protect-you-and-your-employees/" rel="bookmark" title="Permanent Link: Android 安全性：6 個提示和技巧來保護您和您的員工">Android 安全性：6 個提示和技巧來保護您和您的員工</a></li><li><a href="https://www.appinn.com/41-cats-games/" rel="bookmark" title="Permanent Link: 一次玩个够，43 款喵星人游戏">一次玩个够，43 款喵星人游戏</a></li><li><a href="https://www.appinn.com/10-addons-android-firefox/" rel="bookmark" title="Permanent Link: 10 款有用的 Android 版本 Firefox 扩展">10 款有用的 Android 版本 Firefox 扩展</a></li><li><a href="https://www.appinn.com/android-12-dp-1-download/" rel="bookmark" title="Permanent Link: Android 12 第一个开发者预览版已经可以下载了，支持 Pixel 3 以上设备">Android 12 第一个开发者预览版已经可以下载了，支持 Pixel 3 以上设备</a></li></ul><hr />
+<a href="http://www.appinn.com/copyright/?utm_source=feeds&amp;utm_medium=copyright&amp;utm_campaign=feeds" title="版权声明">&#169;</a>2021 青小蛙 for <a href="http://www.appinn.com/?utm_source=feeds&amp;utm_medium=appinn&amp;utm_campaign=feeds" title="本文来自小众软件">小众软件</a> | <a href="http://www.appinn.com/join-us/?utm_source=feeds&amp;utm_medium=joinus&amp;utm_campaign=feeds" title="加入小众软件">加入我们</a> | <a href="https://meta.appinn.net/c/faxian/?utm_source=feeds&amp;utm_medium=contribute&amp;utm_campaign=feeds" title="给小众软件投稿" target="_blank" rel="noopener">投稿</a> | <a href="http://www.appinn.com/feeds-subscribe/?utm_source=feeds&amp;utm_medium=feedsubscribe&amp;utm_campaign=feeds" title="可以分类订阅小众，Windows/MAC/游戏" target="_blank"><font color="red">订阅指南</font></a><br /> 3659b075e72a5b7b1b87ea74aa7932ff <br />
+<a href="https://www.appinn.com/trakt-for-android/#comments" title="to the comments">点击这里留言、和原作者一起评论</a><div class="wpulike wpulike-updown-voting  wpulike-is-pro" ><div class="wp_ulike_general_class wpulike_up_vote wp_ulike_is_not_liked"><button type="button"
+            aria-label="喜欢按钮"
+            data-ulike-id="45469" data-ulike-factor="up"
+            data-ulike-nonce="fbe47625c3" data-ulike-type="post"
+            data-ulike-template="wp-ulike-pro-default" data-ulike-display-likers="0"
+            data-ulike-likers-style="popover" class="wp_ulike_btn wp_ulike_btn_up  wp_post_up_btn_45469 wp_ulike_put_image"></button><span class="count-box wp_ulike_counter_up" data-ulike-counter-value="0"></span>    </div><div class="wp_ulike_general_class wpulike_down_vote wp_ulike_is_not_liked"><button type="button"
+            aria-label="Dislike Button"
+            data-ulike-id="45469" data-ulike-factor="down"
+            data-ulike-nonce="fbe47625c3" data-ulike-type="post"
+            data-ulike-template="wp-ulike-pro-default" data-ulike-display-likers="0"
+            data-ulike-likers-style="popover" class="wp_ulike_btn wp_ulike_btn_down  wp_post_down_btn_45469 wp_ulike_put_image"></button><span class="count-box wp_ulike_counter_down" data-ulike-counter-value="0"></span>    </div></div>
+<p><a href="https://www.appinn.com/trakt-for-android/">[ 点击前往获取链接 ]</a></p><hr/>]]></content:encoded>
+<wfw:commentrss>https://www.appinn.com/trakt-for-android/feed/</wfw:commentrss>
+<slash:comments>0</slash:comments>
+</item>
+<item>
+<title>Gecata by Movavi –  游戏录制直播软件[Win]</title>
+<link/>https://www.appinn.com/gecata-by-movavi/
+					<comments>https://www.appinn.com/gecata-by-movavi/#respond</comments>
+<dc:creator><![CDATA[青小蛙]]></dc:creator>
+<pubDate>Sat, 20 May 2023 12:28:27 +0000</pubDate>
+<category><![CDATA[Windows]]></category>
+<category><![CDATA[游戏]]></category>
+<category><![CDATA[twp]]></category>
+<category><![CDATA[录制]]></category>
+<category><![CDATA[直播]]></category>
+<guid ispermalink="false">https://www.appinn.com/?p=45473</guid>
+<description><![CDATA[Gecata by Movavi 是一款适用于 Windows 的游戏录制直播软件，提供显示实时帧率、视频编辑转换、快速截图等多种功能。操作简单，优化适配百余款游戏。 这是一款付费工具。 Movavi ]]></description>
+<content:encoded><![CDATA[
+<p><strong>Gecata by Movavi</strong> 是一款适用于 Windows 的游戏录制直播软件，提供显示实时帧率、视频编辑转换、快速截图等多种功能。操作简单，优化适配百余款游戏。</p>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" src="https://static1.appinn.com/images/202305/gecata.jpg!o" alt="Gecata by Movavi -  游戏录制直播软件[Win]" title="Gecata by Movavi - 游戏录制直播软件[Win] 8"></figure>
+
+
+
+<p>这是一款付费工具。</p>
+
+
+
+<p>Movavi 出品的工具，每一款都是能够在特定领域，独当一面的优秀产品。</p>
+
+
+
+<p>Gecata 支持录制高达 4K 120FPS 的游戏画面，能为你记录每一个精彩瞬间，方便后续二次创作。</p>
+
+
+
+<p>利用软件，能够很方便地在游戏画面内，叠加上摄像头同步录制的主播画面，轻松制作 Reaction 主题的视频。</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-large"><img decoding="async" src="https://static1.appinn.com/images/202305/lizhi-051-12.jpg!o" alt="Gecata by Movavi - 游戏录制直播软件[Win] 5" title="Gecata by Movavi - 游戏录制直播软件[Win] 9"></figure></div>
+
+
+<p>Gecata by Movavi 不仅提供了内外音画同录 / 推流等功能，还预设了 50+ 直播平台的服务器地址，可以快速推流直播源到对应的平台。</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-large"><img decoding="async" src="https://static1.appinn.com/images/202305/lizhi-051-13.jpg!o" alt="Gecata by Movavi - 游戏录制直播软件[Win] 6" title="Gecata by Movavi - 游戏录制直播软件[Win] 10"></figure></div>
+
+
+<p>它还支持在游戏 / 视频内叠加显示：磁盘剩余空间、录制时长、快捷键、画面帧率等多种信息。</p>
+
+
+
+<p>Gecata by Movavi 内置视频剪切、格式转换、质量调节等基础的视频编辑功能，支持调整分辨率、帧率等参数。</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-large"><img decoding="async" src="https://static1.appinn.com/images/202305/lizhi-051-14.jpg!o" alt="Gecata by Movavi - 游戏录制直播软件[Win] 7" title="Gecata by Movavi - 游戏录制直播软件[Win] 11"></figure></div>
+
+
+<p>用户可自定义录制 / 直播启停、显示 / 隐藏叠加层、截图等功能的快捷键。无需从游戏界面跳出，随时都能控制工具的各项主要功能。</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-large"><img decoding="async" src="https://static1.appinn.com/images/202305/lizhi-051-15.jpg!o" alt="Gecata by Movavi - 游戏录制直播软件[Win] 8" title="Gecata by Movavi - 游戏录制直播软件[Win] 12"></figure></div>
+
+
+<p>软件还提供了直播时录制、游戏模式自动录制、GPU 硬件加速等丰富的实用功能。</p>
+
+
+
+<p>如果你只有游戏录屏、直播推流、基础视频编辑的需求，单独购买这款 Gecata by Movavi 就能满足。</p>
+
+
+<h2 class="wp-block-heading" id="%25e8%258e%25b7%25e5%258f%2596">获取</h2>
+
+
+<ul>
+<li><a href="https://store.lizhi.io/site/products/id/650?cid=jxlwguir" target="_blank" rel="noopener">https://store.lizhi.io/site/products/id/650?cid=jxlwguir</a></li>
+</ul>
+
+
+
+<p>永久授权，支持换设备激活、中文界面，自版本免费更新，试用 7 天。</p>
+<hr />
+<a href="http://www.appinn.com/copyright/?utm_source=feeds&amp;utm_medium=copyright&amp;utm_campaign=feeds" title="版权声明">&#169;</a>2021 青小蛙 for <a href="http://www.appinn.com/?utm_source=feeds&amp;utm_medium=appinn&amp;utm_campaign=feeds" title="本文来自小众软件">小众软件</a> | <a href="http://www.appinn.com/join-us/?utm_source=feeds&amp;utm_medium=joinus&amp;utm_campaign=feeds" title="加入小众软件">加入我们</a> | <a href="https://meta.appinn.net/c/faxian/?utm_source=feeds&amp;utm_medium=contribute&amp;utm_campaign=feeds" title="给小众软件投稿" target="_blank" rel="noopener">投稿</a> | <a href="http://www.appinn.com/feeds-subscribe/?utm_source=feeds&amp;utm_medium=feedsubscribe&amp;utm_campaign=feeds" title="可以分类订阅小众，Windows/MAC/游戏" target="_blank"><font color="red">订阅指南</font></a><br /> 3659b075e72a5b7b1b87ea74aa7932ff <br />
+<a href="https://www.appinn.com/gecata-by-movavi/#comments" title="to the comments">点击这里留言、和原作者一起评论</a><div class="wpulike wpulike-updown-voting  wpulike-is-pro" ><div class="wp_ulike_general_class wpulike_up_vote wp_ulike_is_not_liked"><button type="button"
+            aria-label="喜欢按钮"
+            data-ulike-id="45473" data-ulike-factor="up"
+            data-ulike-nonce="a5ce0a4a7c" data-ulike-type="post"
+            data-ulike-template="wp-ulike-pro-default" data-ulike-display-likers="0"
+            data-ulike-likers-style="popover" class="wp_ulike_btn wp_ulike_btn_up  wp_post_up_btn_45473 wp_ulike_put_image"></button><span class="count-box wp_ulike_counter_up" data-ulike-counter-value="0"></span>    </div><div class="wp_ulike_general_class wpulike_down_vote wp_ulike_is_not_liked"><button type="button"
+            aria-label="Dislike Button"
+            data-ulike-id="45473" data-ulike-factor="down"
+            data-ulike-nonce="a5ce0a4a7c" data-ulike-type="post"
+            data-ulike-template="wp-ulike-pro-default" data-ulike-display-likers="0"
+            data-ulike-likers-style="popover" class="wp_ulike_btn wp_ulike_btn_down  wp_post_down_btn_45473 wp_ulike_put_image"></button><span class="count-box wp_ulike_counter_down" data-ulike-counter-value="0"></span>    </div></div>
+<p><a href="https://www.appinn.com/gecata-by-movavi/">[ 点击前往获取链接 ]</a></p><hr/>]]></content:encoded>
+<wfw:commentrss>https://www.appinn.com/gecata-by-movavi/feed/</wfw:commentrss>
+<slash:comments>0</slash:comments>
+</item>
+<item>
+<title>Delapp – 开源的文件删除工具，专治文件占用不可删除[Windows]开发者「瞎扯八道」写的好</title>
+<link/>https://www.appinn.com/delapp-for-windows/
+					<comments>https://www.appinn.com/delapp-for-windows/#comments</comments>
+<dc:creator><![CDATA[青小蛙]]></dc:creator>
+<pubDate>Sat, 20 May 2023 04:21:52 +0000</pubDate>
+<category><![CDATA[Windows]]></category>
+<category><![CDATA[twp]]></category>
+<category><![CDATA[删除]]></category>
+<category><![CDATA[强制删除]]></category>
+<guid ispermalink="false">https://www.appinn.com/?p=45470</guid>
+<description><![CDATA[Delapp 是一个 Windows 上删除文件与文件夹的工具，主要解决「被其他程序打开的文件和文件夹」无法删除的文件，还支持删除以.或(空格)结尾的文件夹。还有速度快，支持 Windows 7，另外 ]]></description>
+<content:encoded><![CDATA[
+<p>Delapp 是一个 Windows 上删除文件与文件夹的工具，主要解决「被其他程序打开的文件和文件夹」无法删除的文件，还支持删除以<code>.</code>或(空格)结尾的文件夹。还有速度快，支持 Windows 7，另外开发者的「瞎扯八道」写的好。@<a href="https://www.appinn.com/delapp-for-windows/">Appinn</a> </p>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" src="https://static1.appinn.com/images/202305/delapp.jpg!o" alt="Delapp - 开源的文件删除工具，专治文件占用不可删除[Windows]开发者「瞎扯八道」写的好" title="Delapp - 开源的文件删除工具，专治文件占用不可删除[Windows]开发者「瞎扯八道」写的好 13"></figure>
+
+
+
+<p>来自<a href="https://meta.appinn.net/c/faxian/10" target="_blank" rel="noopener"><strong>发现频道</strong></a>，开发者 @differentrain 自荐：<a href="https://meta.appinn.net/t/topic/43782" target="_blank" rel="noopener">https://meta.appinn.net/t/topic/43782</a></p>
+
+
+
+<p>这是一款被 @<a href="https://meta.appinn.net/t/topic/43782/2?u=qingwa" target="_blank" rel="noopener">Debatrix</a> 称为「刚听到感觉很没用，稍微想想又感觉很有用，再仔细想想还是很没用」的工具，青小蛙也这样觉得 <img src="https://s.w.org/images/core/emoji/14.0.0/72x72/1f602.png" alt="😂" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+
+
+
+<p>以下为原文：</p>
+
+
+<h2 class="wp-block-heading" id="toc-h2-3">简介</h2>
+
+
+<ul>
+<li>高速删除文件和文件夹</li>
+
+
+
+<li>删除以<code>.</code>或<code>&nbsp;</code>(空格)结尾的文件夹</li>
+
+
+
+<li>删除被其他程序打开的文件和文件夹</li>
+
+
+
+<li>删除映射文件</li>
+
+
+
+<li>删除正在运行的程序</li>
+
+
+
+<li>删除正被使用的动态运行库</li>
+</ul>
+
+
+<h2 class="wp-block-heading" id="toc-h2-4"><a href="https://meta.appinn.net/t/topic/43782#h-5" target="_blank" rel="noopener"></a>项目网站&amp;下载</h2>
+
+
+<ul>
+<li><a href="https://github.com/differentrain/Delapp" target="_blank" rel="noopener">https://github.com/differentrain/Delapp</a></li>
+
+
+
+<li><a href="https://github.com/differentrain/Delapp/releases/latest/download/Delapp.zip" target="_blank" rel="noopener">最新版本</a></li>
+</ul>
+
+
+<h2 class="wp-block-heading" id="toc-h2-5"><a href="https://meta.appinn.net/t/topic/43782#h-6" target="_blank" rel="noopener"></a>截图</h2>
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img decoding="async" src="https://raw.githubusercontent.com/differentrain/Delapp/master/img/Main01_cn.png" alt="Delapp - 开源的文件删除工具，专治文件占用不可删除[Windows]开发者「瞎扯八道」写的好 9" title="Delapp - 开源的文件删除工具，专治文件占用不可删除[Windows]开发者「瞎扯八道」写的好 14"></figure></div>
+
+<div class="wp-block-image">
+<figure class="aligncenter"><img decoding="async" src="https://raw.githubusercontent.com/differentrain/Delapp/master/img/Open02_cn.png" alt="Delapp - 开源的文件删除工具，专治文件占用不可删除[Windows]开发者「瞎扯八道」写的好 10" title="Delapp - 开源的文件删除工具，专治文件占用不可删除[Windows]开发者「瞎扯八道」写的好 15"></figure></div>
+
+<h2 class="wp-block-heading" id="toc-h2-6"><a href="https://meta.appinn.net/t/topic/43782#h-7" target="_blank" rel="noopener"></a>瞎扯八道</h2>
+
+
+<p>很久以前写过一个类似的东西&nbsp;<a href="https://github.com/differentrain/DeletionTool" target="_blank" rel="noopener">DeletionTool</a>, 不过它有不少小毛病，于是找个时间重写了一下。</p>
+
+
+
+<p>其实“解除文件占用”从技术方面讲很简单，像 BlackINT3 大佬的 <a href="https://www.appinn.com/openark-for-windows/">OpenArk</a>, 解锁占用只是其中最微不足道的功能之一。</p>
+
+
+
+<p>这项技术最大难点在于 Ring3 层面的束手束脚。最典型的例子 <a href="https://learn.microsoft.com/zh-cn/windows-hardware/drivers/ddi/ntifs/nf-ntifs-zwqueryobject" target="_blank" rel="noopener">QueryObject</a>，这玩意不进内核简直就是达利特，碰见 pipe 等大哥正在进行 SYNCHRONIZE 操作，直接挂起到老死，DeletionTool 就有这个问题。</p>
+
+
+
+<p>写 Delapp 的时候，我不想为了小工具单独写个驱动，还得安装，麻烦且不环保，于是试了很多办法，研究了一两天才解决。</p>
+
+
+
+<p>大部分接解除用工具到这里就结束了，实测的时候，还有一些情况无法解决，比如被删除的是一个程序exe，或者是一个正被使用的dll。当然这也不难，遇到程序直接关闭进程，遇到dll或者映射文件直接unmap。</p>
+
+
+
+<p>于是Delapp解除占用的流程是这样的：首先判断被占用的是不是程序，如果是程序就关闭，如果是其他模块(dll)或者映射文件，则unmap掉，最后才是像其他程序一样检测句柄问题。</p>
+
+
+
+<p>这套流程可以做到至少70%的文件都是想删就删，不过肯定有风险，某些软件可能就闪退了，这个没办法，于是我强制加了个提示，必须确认才会删除。</p>
+
+
+
+<p>不过它毕竟是用户层的应用，对系统是没影响的，大概。我曾经一度想做个提权，弄到System权限，能删的东西就更多，不过单文件就做不到了，于是作罢。</p>
+
+
+
+<p>还有就是以<code>.</code>或<code></code>(空格)结尾的文件夹。</p>
+
+
+
+<p>打开命令行，输入&nbsp;<code>md test..\</code>，就可以创造一个名为<code>test..</code>的文件夹，摁Delete或者邮件删不掉的，输入命令&nbsp;<code>rd test..\</code>才能删掉。我最开始遇见这个问题是下在本子的时候，特别糟心，可以说是我写这两个软件的最大动机了……</p>
+
+
+
+<p>这个问题吧，是shell外壳程序的BUG导致的，这意味着系统通用的文件对话框完全不能用了，所以如上图，我做了个简陋的对话框，专门用来处理这种糟心货。</p>
+
+
+
+<p>用起来肯定不如系统自带的那个方便，如果不是这种倒霉玩意儿，直接拖到软件上或者用右键菜单就可以了，要是遇上了，想删除或者修复的话，就用这对话框手动选择吧。</p>
+
+
+
+<p>P·S：刚才发给朋友，被鄙视了，因为这程序不能删除自己……其实是能做到的，但要创建临时文件或者task了，不优雅。所以我把自身的路径，和所属文件夹路径都屏蔽了。</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p>原文：https://www.appinn.com/delapp-for-windows/</p>
+<hr /><h2>相关阅读</h2><ul><li><a href="https://www.appinn.com/why-are-there-214-reasons-to-use-windows-10/" rel="bookmark" title="Permanent Link: 为什么要使用 Windows 10 的 214 条理由">为什么要使用 Windows 10 的 214 条理由</a></li><li><a href="https://www.appinn.com/powertoys-v0-62-0/" rel="bookmark" title="Permanent Link: 微软官方超实用 15+ 小工具集 PowerToys v0.62.0 发布，新增文本提取器 OCR 功能">微软官方超实用 15+ 小工具集 PowerToys v0.62.0 发布，新增文本提取器 OCR 功能</a></li><li><a href="https://www.appinn.com/ultimate-list-of-free-windows-software-from-microsoft/" rel="bookmark" title="Permanent Link: 微软的 150 款免费软件[部分，待更新]">微软的 150 款免费软件[部分，待更新]</a></li><li><a href="https://www.appinn.com/contextmenumanager-for-windows/" rel="bookmark" title="Permanent Link: Windows 右键管理 &#8211; 右键菜单管理程序，用于增删 Windows 右键菜单">Windows 右键管理 &#8211; 右键菜单管理程序，用于增删 Windows 右键菜单</a></li><li><a href="https://www.appinn.com/windows-10-enterprise-ltsc-2021-download/" rel="bookmark" title="Permanent Link: Windows 10 Enterprise LTSC 2021 下载地址发布，提供 5 年持续支持更新（Win10 企业版长期支持渠道 2021）">Windows 10 Enterprise LTSC 2021 下载地址发布，提供 5 年持续支持更新（Win10 企业版长期支持渠道 2021）</a></li></ul><hr />
+<a href="http://www.appinn.com/copyright/?utm_source=feeds&amp;utm_medium=copyright&amp;utm_campaign=feeds" title="版权声明">&#169;</a>2021 青小蛙 for <a href="http://www.appinn.com/?utm_source=feeds&amp;utm_medium=appinn&amp;utm_campaign=feeds" title="本文来自小众软件">小众软件</a> | <a href="http://www.appinn.com/join-us/?utm_source=feeds&amp;utm_medium=joinus&amp;utm_campaign=feeds" title="加入小众软件">加入我们</a> | <a href="https://meta.appinn.net/c/faxian/?utm_source=feeds&amp;utm_medium=contribute&amp;utm_campaign=feeds" title="给小众软件投稿" target="_blank" rel="noopener">投稿</a> | <a href="http://www.appinn.com/feeds-subscribe/?utm_source=feeds&amp;utm_medium=feedsubscribe&amp;utm_campaign=feeds" title="可以分类订阅小众，Windows/MAC/游戏" target="_blank"><font color="red">订阅指南</font></a><br /> 3659b075e72a5b7b1b87ea74aa7932ff <br />
+<a href="https://www.appinn.com/delapp-for-windows/#comments" title="to the comments">点击这里留言、和原作者一起评论</a><div class="wpulike wpulike-updown-voting  wpulike-is-pro" ><div class="wp_ulike_general_class wpulike_up_vote wp_ulike_is_not_liked"><button type="button"
+            aria-label="喜欢按钮"
+            data-ulike-id="45470" data-ulike-factor="up"
+            data-ulike-nonce="0f09cdc774" data-ulike-type="post"
+            data-ulike-template="wp-ulike-pro-default" data-ulike-display-likers="0"
+            data-ulike-likers-style="popover" class="wp_ulike_btn wp_ulike_btn_up  wp_post_up_btn_45470 wp_ulike_put_image"></button><span class="count-box wp_ulike_counter_up" data-ulike-counter-value="+4"></span>    </div><div class="wp_ulike_general_class wpulike_down_vote wp_ulike_is_not_liked"><button type="button"
+            aria-label="Dislike Button"
+            data-ulike-id="45470" data-ulike-factor="down"
+            data-ulike-nonce="0f09cdc774" data-ulike-type="post"
+            data-ulike-template="wp-ulike-pro-default" data-ulike-display-likers="0"
+            data-ulike-likers-style="popover" class="wp_ulike_btn wp_ulike_btn_down  wp_post_down_btn_45470 wp_ulike_put_image"></button><span class="count-box wp_ulike_counter_down" data-ulike-counter-value="0"></span>    </div></div>
+<p><a href="https://www.appinn.com/delapp-for-windows/">[ 点击前往获取链接 ]</a></p><hr/>]]></content:encoded>
+<wfw:commentrss>https://www.appinn.com/delapp-for-windows/feed/</wfw:commentrss>
+<slash:comments>7</slash:comments>
+</item>
+<item>
+<title>Parallels Desktop for Mac 教育版购买指南，5 折！</title>
+<link/>https://www.appinn.com/parallels-desktop-for-mac-education/
+					<comments>https://www.appinn.com/parallels-desktop-for-mac-education/#respond</comments>
+<dc:creator><![CDATA[青小蛙]]></dc:creator>
+<pubDate>Fri, 19 May 2023 13:11:58 +0000</pubDate>
+<category><![CDATA[macOS]]></category>
+<category><![CDATA[Parallels Desktop]]></category>
+<category><![CDATA[twp]]></category>
+<category><![CDATA[教育版]]></category>
+<guid ispermalink="false">https://www.appinn.com/?p=45461</guid>
+<description><![CDATA[Parallels Desktop for Mac 是一款 macOS 系统下的虚拟机软件，它可以让 Windows 以软件的形式运行在 macOS 之中，随时切换，无需重启，非常方便。近日其正式成为 ]]></description>
+<content:encoded><![CDATA[
+<p><strong>Parallels Desktop for Mac</strong> 是一款 macOS 系统下的虚拟机软件，它可以让 Windows 以软件的形式运行在 macOS 之中，随时切换，无需重启，非常方便。近日其正式成为 CARSI（中国高校联盟）服务商，针对中国学生和老师开放教育版本，只需要经过教师/学生身份验证，即可 5 折购买。@<a href="https://www.appinn.com/parallels-desktop-for-mac-education/">Appinn</a> </p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-large"><img decoding="async" src="https://static1.appinn.com/images/202305/parallels-desktop-for-mac-education.jpg!o" alt="Parallels Desktop for Mac 教育版购买指南，5 折！" title="Parallels Desktop for Mac 教育版购买指南，5 折！ 16"></figure></div>
+
+<h2 class="wp-block-heading" id="%25e6%2595%2599%25e8%2582%25b2%25e7%2589%2588%25e4%25bb%25b7%25e6%25a0%25bc">教育版价格</h2>
+
+
+<ul>
+<li>标准版：309 RMB/年</li>
+
+
+
+<li>Pro 版：419 RMB/年</li>
+
+
+
+<li>购买地址：<a href="https://prf.hn/l/OVooO8X" target="_blank" rel="noopener">https://prf.hn/l/OVooO8X</a></li>
+
+
+
+<li>有返利</li>
+</ul>
+
+
+<h3 class="wp-block-heading" id="%25e8%25b4%25ad%25e4%25b9%25b0%25e8%25b5%2584%25e6%25a0%25bc">购买资格</h3>
+
+
+<p>只需要通过 CARSI (中国高校联盟)的身份登录并验证教师/学生资格，就可以购买教育版本。</p>
+
+
+
+<ul>
+<li><a href="https://www.carsi.edu.cn/IdPlist.html" target="_blank" rel="noopener">CARSI 成员查询页面</a>（570 所大学已上线）</li>
+</ul>
+
+
+<h3 class="wp-block-heading" id="%25e9%25aa%258c%25e8%25af%2581%25e6%2596%25b9%25e5%25bc%258f">验证方式</h3>
+
+
+<ol>
+<li>CARSI&nbsp;验证：加入CARSI联盟的高校&nbsp;（目前有600多家）的学生可以直接用校园ID登陆，这也是最简单方便的一种验证方式。</li>
+
+
+
+<li>教育邮箱验证：需要输入教育邮箱并接收验证码，通过教育邮箱和验证码双重验证。</li>
+
+
+
+<li>手动提交学生证明：如学生证照片等。</li>
+</ol>
+
+
+<h2 class="wp-block-heading" id="parallels-desktop-%25e6%2595%2599%25e8%2582%25b2%25e7%2589%2588%25e8%25b4%25ad%25e4%25b9%25b0%25e6%258c%2587%25e5%258d%2597"><strong>Parallels Desktop 教育版购买指南</strong></h2>
+
+
+<p><strong>第 1 步</strong> 访问 Parallels 教育版本官网 <a href="https://prf.hn/l/OVooO8X" target="_blank" rel="noopener">https://prf.hn/l/OVooO8X</a> 选择标准版或 Pro 版本（主要区别是每个虚拟机的虚拟 RAM 和 CPU 数量，但青小蛙只用过标准版）</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-large is-resized"><img decoding="async" loading="lazy" src="https://static1.appinn.com/images/202305/image7-1.jpg!o" alt="Parallels Desktop for Mac 教育版购买指南，5 折！ 11" width="600" height="364" title="Parallels Desktop for Mac 教育版购买指南，5 折！ 17"></figure></div>
+
+
+<p><strong>第 2 步</strong> 点击购买按钮，即可进入教育资格验证通道</p>
+
+
+
+<p><strong>第 3 步</strong> 点击开始：</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-large is-resized"><img decoding="async" loading="lazy" src="https://static1.appinn.com/images/202305/image1-3.jpg!o" alt="Parallels Desktop for Mac 教育版购买指南，5 折！ 12" width="461" height="450" title="Parallels Desktop for Mac 教育版购买指南，5 折！ 18"></figure></div>
+
+
+<p><strong>第 4 步</strong> 输入用户学校 （已加入CARSI联盟），如“北京大学”，在下拉菜单中选中并点击：</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-large is-resized"><img decoding="async" loading="lazy" src="https://static1.appinn.com/images/202305/image2-4.jpg!o" alt="Parallels Desktop for Mac 教育版购买指南，5 折！ 13" width="350" height="408" title="Parallels Desktop for Mac 教育版购买指南，5 折！ 19"></figure></div>
+
+
+<p><strong>第 5 步</strong> 通过学校身份登陆验证：</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-large is-resized"><img decoding="async" loading="lazy" src="https://static1.appinn.com/images/202305/image5-3.jpg!o" alt="Parallels Desktop for Mac 教育版购买指南，5 折！ 14" width="600" height="337" title="Parallels Desktop for Mac 教育版购买指南，5 折！ 20"></figure></div>
+
+
+<p><strong>第 6 步</strong> 身份权限验证，需要点击允许，让 Parallels 确认你的教师、学生身份：</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-large is-resized"><img decoding="async" loading="lazy" src="https://static1.appinn.com/images/202305/image3-3.jpg!o" alt="Parallels Desktop for Mac 教育版购买指南，5 折！ 15" width="627" height="431" title="Parallels Desktop for Mac 教育版购买指南，5 折！ 21"></figure></div>
+
+
+<p><strong>第 7 步</strong> 验证成功跳转至购物车，此时折扣已经生效（5折），可完成购买。</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-large is-resized"><img decoding="async" loading="lazy" src="https://static1.appinn.com/images/202305/image6-2.jpg!o" alt="Parallels Desktop for Mac 教育版购买指南，5 折！ 16" width="840" height="487" title="Parallels Desktop for Mac 教育版购买指南，5 折！ 22"></figure></div>
+
+
+<p><strong>注意</strong>：非CARSI 联盟成员的教师和学生，则需在第4步点击 “无法找到您的学校” 进行邮箱验证或人工提交个人资料进行验证, 验证通过以后会收到技术支持发送的验证码，然后到<strong>第 3 步</strong>去选择“我已收到验证码”并输入邮箱和验证码，从而到达5折购物车页面。</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-large is-resized"><img decoding="async" loading="lazy" src="https://static1.appinn.com/images/202305/image4-2.jpg!o" alt="Parallels Desktop for Mac 教育版购买指南，5 折！ 17" width="497" height="663" title="Parallels Desktop for Mac 教育版购买指南，5 折！ 23"></figure></div>
+
+
+<p>在验证过程中如果有任何问题，请联系技术支持 request@proxi.id（该邮箱仅接受教育资格验证支持）</p>
+
+
+
+<p>至此，就可以完成教育版本的购买了。</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p>对于非教育用户，可以参考：</p>
+
+
+
+<ul>
+<li><a href="https://www.appinn.com/parallels-desktop-18-coupon-code/">Parallels Desktop 18 最新优惠码：官网 8 折促销，结账自动享</a></li>
+</ul>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p>原文：https://www.appinn.com/parallels-desktop-for-mac-education/</p>
+<hr /><h2>相关阅读</h2><ul><li><a href="https://www.appinn.com/parallels-desktop-16-5-surpport-apple-m1/" rel="bookmark" title="Permanent Link: Parallels Desktop 16.5 for Mac 正式发布，原生支持 M1 和 Intel 芯片，在 Mac 上以原生速度运行 Windows 10，限时 9 折优惠">Parallels Desktop 16.5 for Mac 正式发布，原生支持 M1 和 Intel 芯片，在 Mac 上以原生速度运行 Windows 10，限时 9 折优惠</a></li><li><a href="https://www.appinn.com/parallels-desktop-18-promo-mac-app-bundle/" rel="bookmark" title="Permanent Link: 买 1 送 14，Parallels Desktop 18 年度精选 Mac 软件捆绑包：Snagit、PDF Expert、Fantastical、MindManager 等">买 1 送 14，Parallels Desktop 18 年度精选 Mac 软件捆绑包：Snagit、PDF Expert、Fantastical、MindManager 等</a></li><li><a href="https://www.appinn.com/parallels-desktop-18-new/" rel="bookmark" title="Permanent Link: Parallels Desktop 18 发布，在 Mac 上运行 Windows，针对 M1 和 M2 芯片优化，支持 macOS Ventura">Parallels Desktop 18 发布，在 Mac 上运行 Windows，针对 M1 和 M2 芯片优化，支持 macOS Ventura</a></li><li><a href="https://www.appinn.com/parallels-desktop-14-lizhi/" rel="bookmark" title="Permanent Link: 虚拟机 Parallels Desktop 13/14 特价，并加送 Windows 10 家庭版">虚拟机 Parallels Desktop 13/14 特价，并加送 Windows 10 家庭版</a></li><li><a href="https://www.appinn.com/2020-cyber-monday-mac-bundle/" rel="bookmark" title="Permanent Link: 年度 Mac 捆绑包，只需 42 刀（原价 1266 刀），包含 Parallels Desktop Pro 一年订阅等 12 款软件">年度 Mac 捆绑包，只需 42 刀（原价 1266 刀），包含 Parallels Desktop Pro 一年订阅等 12 款软件</a></li></ul><hr />
+<a href="http://www.appinn.com/copyright/?utm_source=feeds&amp;utm_medium=copyright&amp;utm_campaign=feeds" title="版权声明">&#169;</a>2021 青小蛙 for <a href="http://www.appinn.com/?utm_source=feeds&amp;utm_medium=appinn&amp;utm_campaign=feeds" title="本文来自小众软件">小众软件</a> | <a href="http://www.appinn.com/join-us/?utm_source=feeds&amp;utm_medium=joinus&amp;utm_campaign=feeds" title="加入小众软件">加入我们</a> | <a href="https://meta.appinn.net/c/faxian/?utm_source=feeds&amp;utm_medium=contribute&amp;utm_campaign=feeds" title="给小众软件投稿" target="_blank" rel="noopener">投稿</a> | <a href="http://www.appinn.com/feeds-subscribe/?utm_source=feeds&amp;utm_medium=feedsubscribe&amp;utm_campaign=feeds" title="可以分类订阅小众，Windows/MAC/游戏" target="_blank"><font color="red">订阅指南</font></a><br /> 3659b075e72a5b7b1b87ea74aa7932ff <br />
+<a href="https://www.appinn.com/parallels-desktop-for-mac-education/#comments" title="to the comments">点击这里留言、和原作者一起评论</a><div class="wpulike wpulike-updown-voting  wpulike-is-pro" ><div class="wp_ulike_general_class wpulike_up_vote wp_ulike_is_not_liked"><button type="button"
+            aria-label="喜欢按钮"
+            data-ulike-id="45461" data-ulike-factor="up"
+            data-ulike-nonce="6600300579" data-ulike-type="post"
+            data-ulike-template="wp-ulike-pro-default" data-ulike-display-likers="0"
+            data-ulike-likers-style="popover" class="wp_ulike_btn wp_ulike_btn_up  wp_post_up_btn_45461 wp_ulike_put_image"></button><span class="count-box wp_ulike_counter_up" data-ulike-counter-value="+1"></span>    </div><div class="wp_ulike_general_class wpulike_down_vote wp_ulike_is_not_liked"><button type="button"
+            aria-label="Dislike Button"
+            data-ulike-id="45461" data-ulike-factor="down"
+            data-ulike-nonce="6600300579" data-ulike-type="post"
+            data-ulike-template="wp-ulike-pro-default" data-ulike-display-likers="0"
+            data-ulike-likers-style="popover" class="wp_ulike_btn wp_ulike_btn_down  wp_post_down_btn_45461 wp_ulike_put_image"></button><span class="count-box wp_ulike_counter_down" data-ulike-counter-value="0"></span>    </div></div>
+<p><a href="https://www.appinn.com/parallels-desktop-for-mac-education/">[ 点击前往获取链接 ]</a></p><hr/>]]></content:encoded>
+<wfw:commentrss>https://www.appinn.com/parallels-desktop-for-mac-education/feed/</wfw:commentrss>
+<slash:comments>0</slash:comments>
+</item>
+<item>
+<title>小岛秀夫作品《死亡搁浅》（Death Stranding）在 Epic 商店限免一周</title>
+<link/>https://www.appinn.com/death-stranding/
+					<comments>https://www.appinn.com/death-stranding/#comments</comments>
+<dc:creator><![CDATA[青小蛙]]></dc:creator>
+<pubDate>Fri, 19 May 2023 02:47:55 +0000</pubDate>
+<category><![CDATA[游戏]]></category>
+<category><![CDATA[Epic]]></category>
+<category><![CDATA[twp]]></category>
+<guid ispermalink="false">https://www.appinn.com/?p=45458</guid>
+<description><![CDATA[Epic 商店再次开启了神秘游戏限免，连续四周，本周的限免游戏于昨天晚上 11 点上线：小岛秀夫作品《死亡搁浅》（Death Stranding），官网定价 30 刀，限免至 2023/5/25 11 ]]></description>
+<content:encoded><![CDATA[
+<p>Epic 商店再次开启了神秘游戏限免，连续四周，本周的限免游戏于昨天晚上 11 点上线：小岛秀夫作品《死亡搁浅》（Death Stranding），官网定价 30 刀，限免至 2023/5/25 11:00。@<a href="https://www.appinn.com/death-stranding/">Appinn</a> </p>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" src="https://static1.appinn.com/images/202305/death-stranding.jpg!o" alt="小岛秀夫作品《死亡搁浅》（Death Stranding）在 Epic 商店限免一周 18" title="小岛秀夫作品《死亡搁浅》（Death Stranding）在 Epic 商店限免一周 24"></figure>
+
+
+
+<p>需要留意的一点是，无需 Epic 客户端，直接在网页上即可购买，保留在你的账户中，需要的时候再玩。</p>
+
+
+
+<p>另外，官方建议，该游戏适合 17 岁以上玩家。</p>
+
+
+<h2 class="wp-block-heading" id="%25e8%258e%25b7%25e5%258f%2596">获取</h2>
+
+
+<ul>
+<li><a href="https://store.epicgames.com/zh-CN/p/death-stranding" target="_blank" rel="noopener">https://store.epicgames.com/zh-CN/p/death-stranding</a></li>
+</ul>
+
+
+
+<p>另外，DLC《死亡搁浅导演剪辑版》升级 5 折中。</p>
+
+
+
+<p>以下为游戏介绍：</p>
+
+
+<h2 class="wp-block-heading" id="%25e6%25ad%25bb%25e4%25ba%25a1%25e6%2590%2581%25e6%25b5%2585">《死亡搁浅》</h2>
+
+
+<p>传奇游戏缔造者小岛秀夫再出新作，为你带来颠覆传统类型的游戏体验。使用“Social Strand System<img src="https://s.w.org/images/core/emoji/14.0.0/72x72/2122.png" alt="™" class="wp-smiley" style="height: 1em; max-height: 1em;" />”保持连接。</p>
+
+
+
+<p>Sam Bridges 必须勇敢面对被死亡搁浅（Death Stranding）完全颠覆的世界。带着来自未来的碎片，他踏上了一段旅程，逐渐将支离破碎的世界重新连接到一起。</p>
+
+
+
+<p>Norman Reedus、Mads Mikkelsen、Léa Seydoux 和 Lindsay Wagner 倾情出演。</p>
+
+
+
+<p>额外 PC 版本特色包括高帧数支持、摄影模式以及超宽屏显示器支持。 还包括与 Valve Corporation 出品《HALF-LIFE》游戏系列中的内容联动。</p>
+
+
+
+<p>所有的游戏版本都会额外包含以下内容：</p>
+
+
+
+<ul>
+<li>由 Titan Books 出版的《死亡搁浅艺术设定集》数字图书的节选</li>
+
+
+
+<li>“LUDENS MASK”太阳眼镜（开罗尔金色 CHIRAL GOLD 和全反射银色全反射银）</li>
+
+
+
+<li><em>金色和银色力量活动外骨骼</em></li>
+
+
+
+<li>金色和银色全地形活动外骨骼</li>
+
+
+
+<li><em>金色和银色护甲</em></li>
+</ul>
+
+
+<h3 class="wp-block-heading" id="%25e6%25b8%25b8%25e6%2588%258f%25e7%258e%25a9%25e6%25b3%2595">游戏玩法</h3>
+
+
+<p>玩家将扮演“送货员”山姆‧波特‧布里吉斯（诺曼·瑞杜斯饰演），在这个被“死亡搁浅”影响而撕裂的世界，玩家将从新美国东岸的“首都结点城”出发一路向西岸前进，在路上除了运送物资给各个据点，还要让各地连上“开罗尔网络”以便联系及获取周遭的信息<sup><a href="https://zh.wikipedia.org/wiki/%E6%AD%BB%E4%BA%A1%E6%93%B1%E6%B7%BA#cite_note-%E5%B7%B4%E5%93%88%E8%A9%A6%E7%8E%A9-1" target="_blank" rel="noopener">[1]</a></sup>。</p>
+
+
+
+<p>在设计上，游戏画面采用第三人称视角。在运送的过程中，玩家主要会遭遇到几种敌人的阻碍；“米尔人”（Mule）是前送货员，对货物十分执著，带着货物的玩家在接近其据点时，会出现抢夺玩家的货物。“恐怖分子”则是反新美国的敌对武装集团，与米尔人同样在各地设置据点，但他们配置了杀伤性武器，且目的并非货物而是企图杀死山姆，因此玩家即使身上未携带货物，仍会被其发现并遇袭。另一种敌人被称呼为“BT”（Beached Thing，意为“搁浅体”），BT只会在降下“时间雨”（Time Fall）时出现，且没有实体，在游戏的世界观中，生物（包括人类与动物）死后48小时内如未能妥善焚化处理，遗体将会变成BT，最严重的情况下甚至会引发“虚空噬灭”（Voidout），威力足以毁灭整个城市。在游戏过程中，玩家需要使用特殊武器才能对BT造成伤害。</p>
+
+
+<h3 class="wp-block-heading" id="%25e9%2585%258d%25e7%25bd%25ae%25e8%25a6%2581%25e6%25b1%2582">配置要求</h3>
+
+
+<p>死亡搁浅的 Windows 版本于 2020/07/14 发布，对电脑性能要求不高，最低配置：</p>
+
+
+
+<ul>
+<li>操作系统：Windows 10</li>
+
+
+
+<li>处理器：Intel® Core i5-3470 或 AMD Ryzen 3 1200</li>
+
+
+
+<li>内存：8 GB</li>
+
+
+
+<li>显卡：GeForce GTX 1050 3 GB 或 AMD Radeon<img src="https://s.w.org/images/core/emoji/14.0.0/72x72/2122.png" alt="™" class="wp-smiley" style="height: 1em; max-height: 1em;" /> RX 560 4 GB</li>
+</ul>
+<hr /><h2>相关阅读</h2><ul><li><a href="https://www.appinn.com/death-clock-for-chrome/" rel="bookmark" title="Permanent Link: Death Clock &#8211; 温柔的提醒，短暂的生活 [Chrome]">Death Clock &#8211; 温柔的提醒，短暂的生活 [Chrome]</a></li><li><a href="https://www.appinn.com/ultimate-list-of-free-windows-software-from-microsoft/" rel="bookmark" title="Permanent Link: 微软的 150 款免费软件[部分，待更新]">微软的 150 款免费软件[部分，待更新]</a></li><li><a href="https://www.appinn.com/uberleben/" rel="bookmark" title="Permanent Link: Uberleben &#8211; 跳伞[游戏]">Uberleben &#8211; 跳伞[游戏]</a></li><li><a href="https://www.appinn.com/fandom-fact-text/" rel="bookmark" title="Permanent Link: Template: Fandom Fact Text">Template: Fandom Fact Text</a></li></ul><hr />
+<a href="http://www.appinn.com/copyright/?utm_source=feeds&amp;utm_medium=copyright&amp;utm_campaign=feeds" title="版权声明">&#169;</a>2021 青小蛙 for <a href="http://www.appinn.com/?utm_source=feeds&amp;utm_medium=appinn&amp;utm_campaign=feeds" title="本文来自小众软件">小众软件</a> | <a href="http://www.appinn.com/join-us/?utm_source=feeds&amp;utm_medium=joinus&amp;utm_campaign=feeds" title="加入小众软件">加入我们</a> | <a href="https://meta.appinn.net/c/faxian/?utm_source=feeds&amp;utm_medium=contribute&amp;utm_campaign=feeds" title="给小众软件投稿" target="_blank" rel="noopener">投稿</a> | <a href="http://www.appinn.com/feeds-subscribe/?utm_source=feeds&amp;utm_medium=feedsubscribe&amp;utm_campaign=feeds" title="可以分类订阅小众，Windows/MAC/游戏" target="_blank"><font color="red">订阅指南</font></a><br /> 3659b075e72a5b7b1b87ea74aa7932ff <br />
+<a href="https://www.appinn.com/death-stranding/#comments" title="to the comments">点击这里留言、和原作者一起评论</a><div class="wpulike wpulike-updown-voting  wpulike-is-pro" ><div class="wp_ulike_general_class wpulike_up_vote wp_ulike_is_not_liked"><button type="button"
+            aria-label="喜欢按钮"
+            data-ulike-id="45458" data-ulike-factor="up"
+            data-ulike-nonce="342ea1d953" data-ulike-type="post"
+            data-ulike-template="wp-ulike-pro-default" data-ulike-display-likers="0"
+            data-ulike-likers-style="popover" class="wp_ulike_btn wp_ulike_btn_up  wp_post_up_btn_45458 wp_ulike_put_image"></button><span class="count-box wp_ulike_counter_up" data-ulike-counter-value="+2"></span>    </div><div class="wp_ulike_general_class wpulike_down_vote wp_ulike_is_not_liked"><button type="button"
+            aria-label="Dislike Button"
+            data-ulike-id="45458" data-ulike-factor="down"
+            data-ulike-nonce="342ea1d953" data-ulike-type="post"
+            data-ulike-template="wp-ulike-pro-default" data-ulike-display-likers="0"
+            data-ulike-likers-style="popover" class="wp_ulike_btn wp_ulike_btn_down  wp_post_down_btn_45458 wp_ulike_put_image"></button><span class="count-box wp_ulike_counter_down" data-ulike-counter-value="0"></span>    </div></div>
+<p><a href="https://www.appinn.com/death-stranding/">[ 点击前往获取链接 ]</a></p><hr/>]]></content:encoded>
+<wfw:commentrss>https://www.appinn.com/death-stranding/feed/</wfw:commentrss>
+<slash:comments>3</slash:comments>
+</item>
+<item>
+<title>OpenAI ChatGPT 官方 iPhone 客户端发布，支持升级 Plus，不限量 GPT-4</title>
+<link/>https://www.appinn.com/openai-chatgpt-for-iphone/
+					<comments>https://www.appinn.com/openai-chatgpt-for-iphone/#comments</comments>
+<dc:creator><![CDATA[青小蛙]]></dc:creator>
+<pubDate>Fri, 19 May 2023 01:43:53 +0000</pubDate>
+<category><![CDATA[AI]]></category>
+<category><![CDATA[iOS]]></category>
+<category><![CDATA[iPhone]]></category>
+<category><![CDATA[ChatGPT]]></category>
+<category><![CDATA[twp]]></category>
+<category><![CDATA[客户端_ios]]></category>
+<guid ispermalink="false">https://www.appinn.com/?p=45447</guid>
+<description><![CDATA[OpenAI 刚刚发布了 ChatGPT 官方 iPhone 客户端，名字就叫做 OpenAI ChatGPT，免费、无广告，可同步历史对话，使用最新 OpenAI 模型，能通过 App Store  ]]></description>
+<content:encoded><![CDATA[
+<p>OpenAI 刚刚发布了 ChatGPT 官方 iPhone 客户端，名字就叫做 <strong>OpenAI ChatGPT</strong>，免费、无广告，可同步历史对话，使用最新 OpenAI 模型，能通过 App Store 升级 Plus，<strong>目前</strong> GPT-4 不限量。仅限美区。@<a href="https://www.appinn.com/openai-chatgpt-for-iphone/">Appinn</a></p>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" src="https://static1.appinn.com/images/202305/openai-chatgpt.jpg!o" alt="OpenAI ChatGPT 官方 iPhone 客户端发布，支持升级 Plus，不限量 GPT-4 19" title="OpenAI ChatGPT 官方 iPhone 客户端发布，支持升级 Plus，不限量 GPT-4 25"></figure>
+
+
+
+<p>ChatGPT 在 App Store 上架让付费升级 Plus 的门槛降低，使用常见的礼品卡即可支付。但通道门槛依旧，需要科学才行。</p>
+
+
+<h3 class="wp-block-heading" id="%25e6%2594%25af%25e6%258c%2581%25e8%25af%25ad%25e9%259f%25b3%25e8%25be%2593%25e5%2585%25a5">支持语音输入</h3>
+
+
+<p>OpenAI ChatGPT 内置了 Whisper，可以实现语音输入自动转换为文本，并提交给 ChatGPT，支持中文。</p>
+
+
+<h3 class="wp-block-heading" id="%25e8%2581%2594%25e7%25bd%2591%25e6%258f%2592%25e4%25bb%25b6">联网插件</h3>
+
+
+<p>目前在客户端中还没有联网插件入口，但如何你之前就是 Plus 用户，并在网页端使用过 Browsing，那么可以通过历史记录，继续使用。by @tru</p>
+
+
+<h2 class="wp-block-heading" id="%25e8%258e%25b7%25e5%258f%2596">获取</h2>
+
+
+<ul>
+<li><a href="https://apps.apple.com/us/app/openai-chatgpt/id6448311069" target="_blank" rel="noopener">App Store</a></li>
+</ul>
+
+
+<h2 class="wp-block-heading" id="%25e5%258d%2587%25e7%25ba%25a7-plus">升级 Plus</h2>
+
+
+<p>在 OpenAI ChatGPT 中升级 Plus 只需要 App Store 账号有余额即可，所以支持礼品卡，不用再像之前一样需要很麻烦的支付方式。</p>
+
+
+
+<p>另外需要注意，在网页端开通 Plus 的用户，无法再使用 App Store 付费，无法切换的。不过通过 App Store 购买 Plus 的账号，支持在网页端继续使用 Plus。</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-large is-resized"><img decoding="async" loading="lazy" src="https://static1.appinn.com/images/202305/photo_2023-05-19_09-34-15.jpg!o" alt="OpenAI ChatGPT 官方 iPhone 客户端发布，支持升级 Plus，不限量 GPT-4 20" width="398" height="742" title="OpenAI ChatGPT 官方 iPhone 客户端发布，支持升级 Plus，不限量 GPT-4 26"><figcaption class="wp-element-caption">by @wm</figcaption></figure></div>
+
+<h2 class="wp-block-heading" id="%25e6%2597%25a0%25e9%2599%2590%25e9%2587%258f-gpt4">无限量 GPT-4</h2>
+
+
+<p>从青小蛙看到的多个渠道反馈，目前的 OpenAI ChatGPT 并不限制 GPT-4 用量（网页版 Plus 有限制），但根据这个地球的算力来看，当用户量上去以后，该限制还是要限制，用要趁早。</p>
+
+
+
+<p>这个锅只能甩给&#8230;老黄了 <img src="https://s.w.org/images/core/emoji/14.0.0/72x72/1f648.png" alt="🙈" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+
+
+<h2 class="wp-block-heading" id="%25e7%25ac%25ac%25e4%25b8%2589%25e6%2596%25b9%25e5%25ae%25a2%25e6%2588%25b7%25e7%25ab%25af">第三方客户端</h2>
+
+
+<p>之前有过不少的<a href="https://www.appinn.com/chatgpt-guides/#ios-%25e5%25ae%25a2%25e6%2588%25b7%25e7%25ab%25af">第三方客户端</a>，对于这些应用来说，目前要做的就是差异化了，否则打不过呀 <img src="https://s.w.org/images/core/emoji/14.0.0/72x72/1f602.png" alt="😂" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p>原文：https://www.appinn.com/openai-chatgpt-for-iphone/</p>
+
+
+
+<p>插入广告：<a href="https://xipcloudy.com/?aff=appinn" target="_blank" rel="noopener">可访问 ChatGPT 的科</a>（有返利，感谢支持）。另外，还有一个 <a href="https://www.appinn.com/chatgpt-guides/#ios">ChatGPT 指南</a> 页面，收录了之前介绍过的相关工具。</p>
+<hr /><h2>相关阅读</h2><ul><li><a href="https://www.appinn.com/chatgpt-openai-bot/" rel="bookmark" title="Permanent Link: ChatGPT OpenAI Bot &#8211; 每 60 秒问一次，无需注册的第三方 ChatGPT 机器人｜ChatGPT 中文名就这么定了">ChatGPT OpenAI Bot &#8211; 每 60 秒问一次，无需注册的第三方 ChatGPT 机器人｜ChatGPT 中文名就这么定了</a></li><li><a href="https://www.appinn.com/pingpongchat/" rel="bookmark" title="Permanent Link: PingPongChat &#8211; 这可能是目前最简单、最容易使用 ChatGPT 的方式了[iOS/macOS]">PingPongChat &#8211; 这可能是目前最简单、最容易使用 ChatGPT 的方式了[iOS/macOS]</a></li><li><a href="https://www.appinn.com/a-chatgpt-chrome-extension/" rel="bookmark" title="Permanent Link: 一个简单的 ChatGPT Chrome 扩展，可以帮你自动填写答案">一个简单的 ChatGPT Chrome 扩展，可以帮你自动填写答案</a></li><li><a href="https://www.appinn.com/chatgpt-siri/" rel="bookmark" title="Permanent Link: &#x1f916; ChatGPT Siri &#8211; 语音指令，用 Hi Siri 向 ChatGPT 提问[快捷指令]"><img src="https://s.w.org/images/core/emoji/14.0.0/72x72/1f916.png" alt="🤖" class="wp-smiley" style="height: 1em; max-height: 1em;" /> ChatGPT Siri &#8211; 语音指令，用 Hi Siri 向 ChatGPT 提问[快捷指令]</a></li><li><a href="https://www.appinn.com/openai-translator-for-chrome/" rel="bookmark" title="Permanent Link: OpenAI Translator &#8211; 基于 ChatGPT API 的划词翻译，55 种语言互译[Chrome]">OpenAI Translator &#8211; 基于 ChatGPT API 的划词翻译，55 种语言互译[Chrome]</a></li></ul><hr />
+<a href="http://www.appinn.com/copyright/?utm_source=feeds&amp;utm_medium=copyright&amp;utm_campaign=feeds" title="版权声明">&#169;</a>2021 青小蛙 for <a href="http://www.appinn.com/?utm_source=feeds&amp;utm_medium=appinn&amp;utm_campaign=feeds" title="本文来自小众软件">小众软件</a> | <a href="http://www.appinn.com/join-us/?utm_source=feeds&amp;utm_medium=joinus&amp;utm_campaign=feeds" title="加入小众软件">加入我们</a> | <a href="https://meta.appinn.net/c/faxian/?utm_source=feeds&amp;utm_medium=contribute&amp;utm_campaign=feeds" title="给小众软件投稿" target="_blank" rel="noopener">投稿</a> | <a href="http://www.appinn.com/feeds-subscribe/?utm_source=feeds&amp;utm_medium=feedsubscribe&amp;utm_campaign=feeds" title="可以分类订阅小众，Windows/MAC/游戏" target="_blank"><font color="red">订阅指南</font></a><br /> 3659b075e72a5b7b1b87ea74aa7932ff <br />
+<a href="https://www.appinn.com/openai-chatgpt-for-iphone/#comments" title="to the comments">点击这里留言、和原作者一起评论</a><div class="wpulike wpulike-updown-voting  wpulike-is-pro" ><div class="wp_ulike_general_class wpulike_up_vote wp_ulike_is_not_liked"><button type="button"
+            aria-label="喜欢按钮"
+            data-ulike-id="45447" data-ulike-factor="up"
+            data-ulike-nonce="70f3a660d0" data-ulike-type="post"
+            data-ulike-template="wp-ulike-pro-default" data-ulike-display-likers="0"
+            data-ulike-likers-style="popover" class="wp_ulike_btn wp_ulike_btn_up  wp_post_up_btn_45447 wp_ulike_put_image"></button><span class="count-box wp_ulike_counter_up" data-ulike-counter-value="+4"></span>    </div><div class="wp_ulike_general_class wpulike_down_vote wp_ulike_is_not_liked"><button type="button"
+            aria-label="Dislike Button"
+            data-ulike-id="45447" data-ulike-factor="down"
+            data-ulike-nonce="70f3a660d0" data-ulike-type="post"
+            data-ulike-template="wp-ulike-pro-default" data-ulike-display-likers="0"
+            data-ulike-likers-style="popover" class="wp_ulike_btn wp_ulike_btn_down  wp_post_down_btn_45447 wp_ulike_put_image"></button><span class="count-box wp_ulike_counter_down" data-ulike-counter-value="0"></span>    </div></div>
+<p><a href="https://www.appinn.com/openai-chatgpt-for-iphone/">[ 点击前往获取链接 ]</a></p><hr/>]]></content:encoded>
+<wfw:commentrss>https://www.appinn.com/openai-chatgpt-for-iphone/feed/</wfw:commentrss>
+<slash:comments>2</slash:comments>
+</item>
+<item>
+<title>Command X – 为 macOS 添加「剪切」快捷键</title>
+<link/>https://www.appinn.com/command-x/
+					<comments>https://www.appinn.com/command-x/#comments</comments>
+<dc:creator><![CDATA[青小蛙]]></dc:creator>
+<pubDate>Thu, 18 May 2023 13:14:31 +0000</pubDate>
+<category><![CDATA[macOS]]></category>
+<category><![CDATA[twp]]></category>
+<category><![CDATA[剪切]]></category>
+<category><![CDATA[快捷键]]></category>
+<guid ispermalink="false">https://www.appinn.com/?p=45444</guid>
+<description><![CDATA[Command X 是一款为 macOS 添加剪切快捷键的小工具。安装之后，就可以对文件、文件夹使用快捷键 Command X 进行剪切，并使用 Command V 粘贴。@Appinn 感谢 @Re ]]></description>
+<content:encoded><![CDATA[
+<p><strong>Command X</strong> 是一款为 macOS 添加<strong>剪切快捷键</strong>的小工具。安装之后，就可以对文件、文件夹使用快捷键 Command X 进行剪切，并使用 Command V 粘贴。@<a href="https://www.appinn.com/command-x/">Appinn</a> </p>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" src="https://static1.appinn.com/images/202305/command-x.jpg!o" alt="Command X - 为 macOS 添加「剪切」快捷键" title="Command X - 为 macOS 添加「剪切」快捷键 27"></figure>
+
+
+
+<p>感谢 @Reynard 的推荐。</p>
+
+
+<h2 class="wp-block-heading" id="macos-%25e5%258e%259f%25e7%2594%259f%25e5%2589%25aa%25e5%2588%2587%25e5%258a%259f%25e8%2583%25bd">macOS 原生剪切功能</h2>
+
+
+<p>在 macOS 里，针对文件与文件夹，原生不支持直接使用<strong>剪切</strong>这个功能的，但有将<strong>项目移动到这里</strong>这个相同的功能：</p>
+
+
+
+<figure class="wp-block-video aligncenter"><video autoplay controls loop muted src="https://img.appinn.com/wp-content/uploads/2023/05/ezgif.com-resize-4.mp4" playsinline></video></figure>
+
+
+
+<p>所以使用上与 Windows 不同：</p>
+
+
+
+<p class="has-text-align-center">你必须先复制（<kbd>Command+C</kbd>），然后移动（<kbd>Option+Command+V</kbd>）</p>
+
+
+
+<p>对于经常在双系统间切换的用户来说，会稍有不便。</p>
+
+
+<h2 class="wp-block-heading" id="command-x-%25e4%25b8%25ba-macos-%25e6%25b7%25bb%25e5%258a%25a0%25e5%2589%25aa%25e5%2588%2587%25e5%25bf%25ab%25e6%258d%25b7%25e9%2594%25ae">Command X &#8211; 为 macOS 添加「剪切」快捷键</h2>
+
+
+<p>Command X 把 Windows 的操作「移植」了过来，让你可以在 Finder 中使用 <kbd>Command+X</kbd> 剪切，然后 <kbd>Command+V</kbd> 粘贴文件和文件夹。</p>
+
+
+
+<p>只需让程序在后台运行即可。文件和文件夹的移动是由 Finder 处理的，Command X 只是在 Finder 前拦截剪切和粘贴命令，然后模拟复制和移动命令。</p>
+
+
+
+<p>如果你在剪切（ <kbd>Command+X</kbd> ）后没有粘贴，就不会发生任何事情，文件会留在原地。</p>
+
+
+<h2 class="wp-block-heading" id="%25e8%258e%25b7%25e5%258f%2596">获取</h2>
+
+
+<ul>
+<li><a href="https://apps.apple.com/cn/app/command-x/id6448461551?mt=12" target="_blank" rel="noopener">Mac App Store</a></li>
+</ul>
+
+
+
+<p>当然，如果你习惯了使用 <kbd>Option+Command+V</kbd> 来移动文件，完全不需要这货。</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p>原文：https://www.appinn.com/command-x/</p>
+<hr /><h2>相关阅读</h2><ul><li><a href="https://www.appinn.com/windows-7-command-bar-tweaker/" rel="bookmark" title="Permanent Link: Windows 7 Command Bar Tweaker &#8211; 消除文件管理器里面碍眼的蓝条">Windows 7 Command Bar Tweaker &#8211; 消除文件管理器里面碍眼的蓝条</a></li><li><a href="https://www.appinn.com/ishud-for-mac/" rel="bookmark" title="Permanent Link: isHUD &#8211; 提高你的输入法切换效率[macOS]">isHUD &#8211; 提高你的输入法切换效率[macOS]</a></li><li><a href="https://www.appinn.com/atpill-douban-fm/" rel="bookmark" title="Permanent Link: AtPill &#8211; 漂亮的豆瓣电台客户端">AtPill &#8211; 漂亮的豆瓣电台客户端</a></li><li><a href="https://www.appinn.com/ultimate-list-of-free-windows-software-from-microsoft/" rel="bookmark" title="Permanent Link: 微软的 150 款免费软件[部分，待更新]">微软的 150 款免费软件[部分，待更新]</a></li><li><a href="https://www.appinn.com/keyremap4macbook/" rel="bookmark" title="Permanent Link: KeyRemap4MacBook &#8211; 轻松修改按键映射[Mac]">KeyRemap4MacBook &#8211; 轻松修改按键映射[Mac]</a></li></ul><hr />
+<a href="http://www.appinn.com/copyright/?utm_source=feeds&amp;utm_medium=copyright&amp;utm_campaign=feeds" title="版权声明">&#169;</a>2021 青小蛙 for <a href="http://www.appinn.com/?utm_source=feeds&amp;utm_medium=appinn&amp;utm_campaign=feeds" title="本文来自小众软件">小众软件</a> | <a href="http://www.appinn.com/join-us/?utm_source=feeds&amp;utm_medium=joinus&amp;utm_campaign=feeds" title="加入小众软件">加入我们</a> | <a href="https://meta.appinn.net/c/faxian/?utm_source=feeds&amp;utm_medium=contribute&amp;utm_campaign=feeds" title="给小众软件投稿" target="_blank" rel="noopener">投稿</a> | <a href="http://www.appinn.com/feeds-subscribe/?utm_source=feeds&amp;utm_medium=feedsubscribe&amp;utm_campaign=feeds" title="可以分类订阅小众，Windows/MAC/游戏" target="_blank"><font color="red">订阅指南</font></a><br /> 3659b075e72a5b7b1b87ea74aa7932ff <br />
+<a href="https://www.appinn.com/command-x/#comments" title="to the comments">点击这里留言、和原作者一起评论</a><div class="wpulike wpulike-updown-voting  wpulike-is-pro" ><div class="wp_ulike_general_class wpulike_up_vote wp_ulike_is_not_liked"><button type="button"
+            aria-label="喜欢按钮"
+            data-ulike-id="45444" data-ulike-factor="up"
+            data-ulike-nonce="3882d333b6" data-ulike-type="post"
+            data-ulike-template="wp-ulike-pro-default" data-ulike-display-likers="0"
+            data-ulike-likers-style="popover" class="wp_ulike_btn wp_ulike_btn_up  wp_post_up_btn_45444 wp_ulike_put_image"></button><span class="count-box wp_ulike_counter_up" data-ulike-counter-value="+1"></span>    </div><div class="wp_ulike_general_class wpulike_down_vote wp_ulike_is_not_liked"><button type="button"
+            aria-label="Dislike Button"
+            data-ulike-id="45444" data-ulike-factor="down"
+            data-ulike-nonce="3882d333b6" data-ulike-type="post"
+            data-ulike-template="wp-ulike-pro-default" data-ulike-display-likers="0"
+            data-ulike-likers-style="popover" class="wp_ulike_btn wp_ulike_btn_down  wp_post_down_btn_45444 wp_ulike_put_image"></button><span class="count-box wp_ulike_counter_down" data-ulike-counter-value="0"></span>    </div></div>
+<p><a href="https://www.appinn.com/command-x/">[ 点击前往获取链接 ]</a></p><hr/>]]></content:encoded>
+<wfw:commentrss>https://www.appinn.com/command-x/feed/</wfw:commentrss>
+<slash:comments>1</slash:comments>
+<enclosure length="87792" type="video/mp4" url="https://img.appinn.com/wp-content/uploads/2023/05/ezgif.com-resize-4.mp4"></enclosure>
+</item>
+<item>
+<title>20i FOSS 奖开始投票：为庆祝自托管的开源软件对我们每天生活的贡献</title>
+<link/>https://www.appinn.com/20i-foss-awards/
+					<comments>https://www.appinn.com/20i-foss-awards/#comments</comments>
+<dc:creator><![CDATA[青小蛙]]></dc:creator>
+<pubDate>Thu, 18 May 2023 07:31:30 +0000</pubDate>
+<category><![CDATA[业界消息]]></category>
+<category><![CDATA[twp]]></category>
+<category><![CDATA[开源]]></category>
+<category><![CDATA[投票]]></category>
+<guid ispermalink="false">https://www.appinn.com/?p=45441</guid>
+<description><![CDATA[20i FOSS Awards 是表彰自托管的开源软件对我们每天生活贡献的奖项，目前已经开始投票，包括通讯、CRM、知识文档、项目管理、电子商务、内容生产、密码管理器在内的 12 个类别。@Appin ]]></description>
+<content:encoded><![CDATA[
+<p><strong>20i FOSS Awards</strong> 是表彰自托管的开源软件对我们每天生活贡献的奖项，目前已经开始投票，包括通讯、CRM、知识文档、项目管理、电子商务、内容生产、密码管理器在内的 12 个类别。@<a href="https://www.appinn.com/20i-foss-awards/">Appinn</a></p>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" src="https://static1.appinn.com/images/202305/foss-awards.jpg!o" alt="20i FOSS 奖开始投票：为庆祝自托管的开源软件对我们每天生活的贡献 21" title="20i FOSS 奖开始投票：为庆祝自托管的开源软件对我们每天生活的贡献 28"></figure>
+
+
+
+<p>投票将于5月26日结束，并于6月12日公布每个奖项的获得者。</p>
+
+
+
+<p>注意到 20i FOSS 奖是因为我们所使用的<a href="https://meta.appinn.net/" target="_blank" rel="noopener">论坛</a>程序 Discourse 也在提名之中。Discourse 在 <a href="https://www.20i.com/foss-awards/category/community-and-social" target="_blank" rel="noopener">Community &amp; Social</a> 分类下。</p>
+
+
+<h2 class="wp-block-heading" id="20i-foss-%25e5%25a5%2596%25e9%25a1%25b9%25e5%2588%2586%25e7%25b1%25bb">20i FOSS 奖项分类</h2>
+
+
+<ul>
+<li><img src="https://s.w.org/images/core/emoji/14.0.0/72x72/1f4ac.png" alt="💬" class="wp-smiley" style="height: 1em; max-height: 1em;" /> 通信</li>
+
+
+
+<li><img src="https://s.w.org/images/core/emoji/14.0.0/72x72/1f91d.png" alt="🤝" class="wp-smiley" style="height: 1em; max-height: 1em;" /> 客户关系管理和支持</li>
+
+
+
+<li><img src="https://s.w.org/images/core/emoji/14.0.0/72x72/1f4dd.png" alt="📝" class="wp-smiley" style="height: 1em; max-height: 1em;" /> 知识与文档</li>
+
+
+
+<li><img src="https://s.w.org/images/core/emoji/14.0.0/72x72/1f9ed.png" alt="🧭" class="wp-smiley" style="height: 1em; max-height: 1em;" /> 项目管理</li>
+
+
+
+<li><img src="https://s.w.org/images/core/emoji/14.0.0/72x72/1f5e3.png" alt="🗣" class="wp-smiley" style="height: 1em; max-height: 1em;" /> 社区与社会</li>
+
+
+
+<li><img src="https://s.w.org/images/core/emoji/14.0.0/72x72/1f6d2.png" alt="🛒" class="wp-smiley" style="height: 1em; max-height: 1em;" /> 电子商务</li>
+
+
+
+<li><img src="https://s.w.org/images/core/emoji/14.0.0/72x72/1f4bb.png" alt="💻" class="wp-smiley" style="height: 1em; max-height: 1em;" /> 内容生产</li>
+
+
+
+<li><img src="https://s.w.org/images/core/emoji/14.0.0/72x72/1f512.png" alt="🔒" class="wp-smiley" style="height: 1em; max-height: 1em;" /> 密码管理器</li>
+
+
+
+<li><img src="https://s.w.org/images/core/emoji/14.0.0/72x72/1f4ca.png" alt="📊" class="wp-smiley" style="height: 1em; max-height: 1em;" /> 分析学</li>
+
+
+
+<li><img src="https://s.w.org/images/core/emoji/14.0.0/72x72/1f4e3.png" alt="📣" class="wp-smiley" style="height: 1em; max-height: 1em;" /> 营销自动化</li>
+
+
+
+<li><img src="https://s.w.org/images/core/emoji/14.0.0/72x72/1f3a8.png" alt="🎨" class="wp-smiley" style="height: 1em; max-height: 1em;" /> 图形</li>
+
+
+
+<li><img src="https://s.w.org/images/core/emoji/14.0.0/72x72/1f9d1-200d-1f4bb.png" alt="🧑‍💻" class="wp-smiley" style="height: 1em; max-height: 1em;" /> 代码编辑器</li>
+</ul>
+
+
+
+<p>还有 8 天投票结束，可直接前往投票：</p>
+
+
+
+<ul>
+<li><a href="https://www.20i.com/foss-awards/" target="_blank" rel="noopener">https://www.20i.com/foss-awards/</a></li>
+</ul>
+<hr /><h2>相关阅读</h2><ul><li><a href="https://www.appinn.com/shelter-2022/" rel="bookmark" title="Permanent Link: Shelter &#8211; Work Profile 的简单实现，Android上的隔离软件 ">Shelter &#8211; Work Profile 的简单实现，Android上的隔离软件 </a></li><li><a href="https://www.appinn.com/nuffnang-2011-awards-in-malaysia/" rel="bookmark" title="Permanent Link: 在拿福能，感受夏天般的冬季马来西亚">在拿福能，感受夏天般的冬季马来西亚</a></li><li><a href="https://www.appinn.com/reveal-passwords/" rel="bookmark" title="Permanent Link: 找回浏览器中遗忘的密码[小书签]">找回浏览器中遗忘的密码[小书签]</a></li><li><a href="https://www.appinn.com/shelter-for-android/" rel="bookmark" title="Permanent Link: Shelter &#8211; 基于 Android 工作用户功能的开源双开、隔离工具">Shelter &#8211; 基于 Android 工作用户功能的开源双开、隔离工具</a></li><li><a href="https://www.appinn.com/scrcpy-2/" rel="bookmark" title="Permanent Link: Scrcpy 2 发布，新增音频支持｜用 Win 电脑控制 Android 手机">Scrcpy 2 发布，新增音频支持｜用 Win 电脑控制 Android 手机</a></li></ul><hr />
+<a href="http://www.appinn.com/copyright/?utm_source=feeds&amp;utm_medium=copyright&amp;utm_campaign=feeds" title="版权声明">&#169;</a>2021 青小蛙 for <a href="http://www.appinn.com/?utm_source=feeds&amp;utm_medium=appinn&amp;utm_campaign=feeds" title="本文来自小众软件">小众软件</a> | <a href="http://www.appinn.com/join-us/?utm_source=feeds&amp;utm_medium=joinus&amp;utm_campaign=feeds" title="加入小众软件">加入我们</a> | <a href="https://meta.appinn.net/c/faxian/?utm_source=feeds&amp;utm_medium=contribute&amp;utm_campaign=feeds" title="给小众软件投稿" target="_blank" rel="noopener">投稿</a> | <a href="http://www.appinn.com/feeds-subscribe/?utm_source=feeds&amp;utm_medium=feedsubscribe&amp;utm_campaign=feeds" title="可以分类订阅小众，Windows/MAC/游戏" target="_blank"><font color="red">订阅指南</font></a><br /> 3659b075e72a5b7b1b87ea74aa7932ff <br />
+<a href="https://www.appinn.com/20i-foss-awards/#comments" title="to the comments">点击这里留言、和原作者一起评论</a><div class="wpulike wpulike-updown-voting  wpulike-is-pro" ><div class="wp_ulike_general_class wpulike_up_vote wp_ulike_is_not_liked"><button type="button"
+            aria-label="喜欢按钮"
+            data-ulike-id="45441" data-ulike-factor="up"
+            data-ulike-nonce="d28ea9ba0e" data-ulike-type="post"
+            data-ulike-template="wp-ulike-pro-default" data-ulike-display-likers="0"
+            data-ulike-likers-style="popover" class="wp_ulike_btn wp_ulike_btn_up  wp_post_up_btn_45441 wp_ulike_put_image"></button><span class="count-box wp_ulike_counter_up" data-ulike-counter-value="+1"></span>    </div><div class="wp_ulike_general_class wpulike_down_vote wp_ulike_is_not_liked"><button type="button"
+            aria-label="Dislike Button"
+            data-ulike-id="45441" data-ulike-factor="down"
+            data-ulike-nonce="d28ea9ba0e" data-ulike-type="post"
+            data-ulike-template="wp-ulike-pro-default" data-ulike-display-likers="0"
+            data-ulike-likers-style="popover" class="wp_ulike_btn wp_ulike_btn_down  wp_post_down_btn_45441 wp_ulike_put_image"></button><span class="count-box wp_ulike_counter_down" data-ulike-counter-value="0"></span>    </div></div>
+<p><a href="https://www.appinn.com/20i-foss-awards/">[ 点击前往获取链接 ]</a></p><hr/>]]></content:encoded>
+<wfw:commentrss>https://www.appinn.com/20i-foss-awards/feed/</wfw:commentrss>
+<slash:comments>6</slash:comments>
+</item>
+</channel>
+</rss>
