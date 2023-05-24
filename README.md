@@ -11,4 +11,4 @@
 
 ## 已转换翻译源
 
- - source001 [http://feed.appinn.com/](http://feed.appinn.com/) -> [xiaozhongruanjian.xml](rss/xiaozhongruanjian.xml)
+ - source001 [https://www.nature.com/ncomms.rss](https://www.nature.com/ncomms.rss) -> [Nature communication.xml](rss/Nature communication.xml)
