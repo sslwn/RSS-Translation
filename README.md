@@ -11,4 +11,4 @@
 
 ## 已转换翻译源
 
- - source001 [https://www.nature.com/ncomms.rss](https://www.nature.com/ncomms.rss) -> [Nature communication.xml](rss/Nature communication.xml)
+ - source001 [https://www.nature.com/ncomms.rss](https://www.nature.com/ncomms.rss) -> [Nature communication.rss](rss/Nature communication.rss)
